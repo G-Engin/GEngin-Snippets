@@ -1,0 +1,18 @@
+{
+    "_GEng_Anim_Create": [
+		"Create an Animation Object",
+		"```\rGEng_Animation.au3\r_GEng_Anim_Create()\r```"
+	],
+    "_GEng_Anim_FrameCount": [
+		"Get the number of frames in an Animation Object",
+		"```\rGEng_Animation.au3\r_GEng_Anim_FrameCount(ByRef $hAnim)\r```"
+	],
+	"_GEng_Anim_FrameAdd": [
+		"Add a frame to an Animation Object",
+		"```\rGEng_Animation.au3\r_GEng_Anim_FrameAdd(ByRef $hAnim, ByRef $hImage, $iFramDuration, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	],
+	"_GEng_Anim_FrameMod": [
+		"Modify an Animation Object's frame",
+		"```\rGEng_Animation.au3\r_GEng_Anim_FrameMod(ByRef $hAnim, $iFrameNumber, ByRef $hImage, $iFramDuration = Default, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	]
+}

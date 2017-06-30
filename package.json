@@ -1,0 +1,62 @@
+{
+    "name": "g-engin",
+    "displayName": "G-Engin",
+    "description": "Visual Studio Code Snippets for Autoit UDF G-Engin",
+    "icon": "img/GEngin.png",
+    "version": "1.0.0",
+    "publisher": "RonildoSouza",
+    "galleryBanner": {
+        "color": "#2fbe70",
+        "theme": "light"
+    },
+    "license": "UNLICENSED",
+    "homepage": "***TODO***",
+    "repository": {
+        "type": "git",
+        "url": "***TODO***"
+    },
+    "engines": {
+        "vscode": "^1.13.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "keywords": [
+        "autoit",
+        "g-engin"
+    ],
+    "activationEvents": [
+        "onLanguage:autoit"
+    ],
+    "main": "./out/src/extension",
+    "contributes": {
+        "languages": [
+            {
+                "extensions": [
+                    ".au3"
+                ]
+            }
+        ],
+        "snippets": [
+            {
+                "language": "autoit",
+                "path": "./snippets/gengin.json"
+            }
+        ]
+    },
+    "scripts": {
+        "postinstall": "node ./node_modules/vscode/bin/install",
+        "test": "node ./node_modules/vscode/bin/test"
+    },
+    "devDependencies": {
+        "typescript": "^2.0.3",
+        "vscode": "^1.0.0",
+        "mocha": "^2.3.3",
+        "eslint": "^3.6.0",
+        "@types/node": "^6.0.40",
+        "@types/mocha": "^2.2.32"
+    },
+    "extensionDependencies": [
+        "Damien.autoit"
+    ]
+}

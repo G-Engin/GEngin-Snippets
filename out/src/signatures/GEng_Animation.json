@@ -1,0 +1,88 @@
+{
+    "_GEng_Anim_Create": {
+        "documentation": "Create an Animation Object",
+        "label": "_GEng_Anim_Create()"        
+    },
+    "_GEng_Anim_FrameCount": {
+        "documentation": "Get the number of frames in an Animation Object",
+        "label": "_GEng_Anim_FrameCount(ByRef $hAnim))",
+        "params": [
+            {
+                "label": "$hAnim",
+                "documentation": "Animation Object"
+            }
+        ]
+    },
+    "_GEng_Anim_FrameAdd": {
+        "documentation": "Add a frame to an Animation Object",
+        "label": "_GEng_Anim_FrameAdd(ByRef $hAnim, ByRef $hImage, $iFramDuration, $x = Default, $y = Default, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$hAnim",
+                "documentation": "Animation Object"
+            },
+            {
+                "label": "$hImage",
+                "documentation": "Image Object"
+            },
+            {
+                "label": "$iFramDuration",
+                "documentation": "Duration of the frame (in ms)"
+            },
+            {
+                "label": "$x",
+                "documentation": "Top left corner position of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$y",
+                "documentation": "Top left corner position of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$w",
+                "documentation": "Size of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$h",
+                "documentation": "Size of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            }
+        ]
+    },
+    "_GEng_Anim_FrameMod": {
+        "documentation": "Modify an Animation Object's frame",
+        "label": "_GEng_Anim_FrameMod(ByRef $hAnim, $iFrameNumber, ByRef $hImage, $iFramDuration = Default, $x = Default, $y = Default, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$hAnim",
+                "documentation": "Animation Object"
+            },
+            {
+                "label": "$iFrameNumber",
+                "documentation": "1-based index of the frame to modify"
+            },
+            {
+                "label": "$hImage",
+                "documentation": "Image Object"
+            },
+            {
+                "label": "$iFramDuration",
+                "documentation": "Duration of the frame (in ms)"
+            },
+            {
+                "label": "$x",
+                "documentation": "Top left corner position of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$y",
+                "documentation": "Top left corner position of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$w",
+                "documentation": "Size of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            },
+            {
+                "label": "$h",
+                "documentation": "Size of the rectangle.\n\tUse the parameter to specify the rectangle of the Image Object to assign to the frame"
+            }
+        ]
+    }
+}

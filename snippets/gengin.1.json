@@ -1,0 +1,3179 @@
+{
+    "ACS_AUTOPLAY": {
+        "prefix": "ACS_AUTOPLAY",
+        "body": "\\$ACS_AUTOPLAY",
+        "scope": "source.autoit"
+    },
+    "ACS_CENTER": {
+        "prefix": "ACS_CENTER",
+        "body": "\\$ACS_CENTER",
+        "scope": "source.autoit"
+    },
+    "ACS_TRANSPARENT": {
+        "prefix": "ACS_TRANSPARENT",
+        "body": "\\$ACS_TRANSPARENT",
+        "scope": "source.autoit"
+    },
+    "ACS_NONTRANSPARENT": {
+        "prefix": "ACS_NONTRANSPARENT",
+        "body": "\\$ACS_NONTRANSPARENT",
+        "scope": "source.autoit"
+    },
+    "Case Block": {
+        "prefix": "Case Block",
+        "body": [
+            "Case ${value/expression}",
+            "\t${statement}"
+        ],
+        "scope": "source.autoit",
+        "description": "A Case block for a Select or Switch statement"
+    },
+    "Case-Else Block": {
+        "prefix": "Case-Else Block",
+        "body": [
+            "Case Else",
+            "\t${statement}"
+        ],
+        "scope": "source.autoit",
+        "description": "A Case Else block for a Select or Switch statement"
+    },
+    "Do Loop": {
+        "prefix": "Do Loop",
+        "body": [
+            "Do",
+            "\t${statement(s)}",
+            "Until ${expression}"
+        ],
+        "scope": "source.autoit",
+        "description": "Loop based on an expression."
+    },
+    "Else Block": {
+        "prefix": "Else Block",
+        "body": "Else\n\t${[else statement(s)]}",
+        "scope": "source.autoit",
+        "description": "An Else block for an If statement"
+    },
+    "ES_AUTOHSCROLL": {
+        "prefix": "ES_AUTOHSCROLL",
+        "body": "\\$ES_AUTOHSCROLL",
+        "scope": "source.autoit"
+    },
+    "ES_AUTOVSCROLL": {
+        "prefix": "ES_AUTOVSCROLL",
+        "body": "\\$ES_AUTOVSCROLL",
+        "scope": "source.autoit"
+    },
+    "ES_CENTER": {
+        "prefix": "ES_CENTER",
+        "body": "\\$ES_CENTER",
+        "scope": "source.autoit"
+    },
+    "ES_LOWERCASE": {
+        "prefix": "ES_LOWERCASE",
+        "body": "\\$ES_LOWERCASE",
+        "scope": "source.autoit"
+    },
+    "ES_NOHIDESEL": {
+        "prefix": "ES_NOHIDESEL",
+        "body": "\\$ES_NOHIDESEL",
+        "scope": "source.autoit"
+    },
+    "ES_NUMBER": {
+        "prefix": "ES_NUMBER",
+        "body": "\\$ES_NUMBER",
+        "scope": "source.autoit"
+    },
+    "ES_OEMCONVERT": {
+        "prefix": "ES_OEMCONVERT",
+        "body": "\\$ES_OEMCONVERT",
+        "scope": "source.autoit"
+    },
+    "ES_MULTILINE": {
+        "prefix": "ES_MULTILINE",
+        "body": "\\$ES_MULTILINE",
+        "scope": "source.autoit"
+    },
+    "ES_PASSWORD": {
+        "prefix": "ES_PASSWORD",
+        "body": "\\$ES_PASSWORD",
+        "scope": "source.autoit"
+    },
+    "ES_READONLY": {
+        "prefix": "ES_READONLY",
+        "body": "\\$ES_READONLY",
+        "scope": "source.autoit"
+    },
+    "ES_RIGHT": {
+        "prefix": "ES_RIGHT",
+        "body": "\\$ES_RIGHT",
+        "scope": "source.autoit"
+    },
+    "ES_UPPERCASE": {
+        "prefix": "ES_UPPERCASE",
+        "body": "\\$ES_UPPERCASE",
+        "scope": "source.autoit"
+    },
+    "ES_WANTRETURN": {
+        "prefix": "ES_WANTRETURN",
+        "body": "\\$ES_WANTRETURN",
+        "scope": "source.autoit"
+    },
+    "For...In...Next": {
+        "prefix": "For...In...Next",
+        "body": [
+            "For \\$${1:vElement} In \\$${2:aArray}",
+            "\t${3:ConsoleWrite(\\$${1:vElement})}",
+            "Next"
+        ],
+        "scope": "source.autoit",
+        "description": "Enumerates elements in an Object collection or an Array."
+    },
+    "For...To...Step...Next": {
+        "prefix": "For...To...Step...Next",
+        "body": [
+            "For \\$${1:i} = ${2:0} To ${3:1} Step ${4:+${5:1}}",
+            "\t${6:ConsoleWrite(\\$${1:i})}",
+            "Next"
+        ],
+        "scope": "source.autoit",
+        "description": "Loop based on an expression."
+    },
+    "Func...EndFunc": {
+        "prefix": "Func...EndFunc",
+        "body": [
+            "Func ${1:FunctionName}(${2:\\$${3:Param}})",
+            "\t${4}",
+            "\t${5:Return ${6:True}}",
+            "EndFunc"
+        ],
+        "scope": "source.autoit",
+        "description": "Function that takes zero or more arguments and optionally returns a result."
+    },
+    "GUI_WS_EX_PARENTDRAG": {
+        "prefix": "GUI_WS_EX_PARENTDRAG",
+        "body": "\\$GUI_WS_EX_PARENTDRAG",
+        "scope": "source.autoit"
+    },
+    "If Block": {
+        "prefix": "If Block",
+        "body": "If ${<expression>} Then\n\t${statement}\nEndIf",
+        "scope": "source.autoit",
+        "description": "Single-line If block snippet"
+    },
+    "If...EndIf": {
+        "prefix": "If...EndIf",
+        "body": [
+            "If (${1:<expression>}) Then",
+            "\t${2:statement}",
+            "EndIf"
+        ],
+        "scope": "source.autoit",
+        "description": "Multi-line If block snippet"
+    },
+    "LBS_DISABLENOSCROLL": {
+        "prefix": "LBS_DISABLENOSCROLL",
+        "body": "\\$LBS_DISABLENOSCROLL",
+        "scope": "source.autoit"
+    },
+    "LBS_NOINTEGRALHEIGHT": {
+        "prefix": "LBS_NOINTEGRALHEIGHT",
+        "body": "\\$LBS_NOINTEGRALHEIGHT",
+        "scope": "source.autoit"
+    },
+    "LBS_NOSEL": {
+        "prefix": "LBS_NOSEL",
+        "body": "\\$LBS_NOSEL",
+        "scope": "source.autoit"
+    },
+    "LBS_NOTIFY": {
+        "prefix": "LBS_NOTIFY",
+        "body": "\\$LBS_NOTIFY",
+        "scope": "source.autoit"
+    },
+    "LBS_SORT": {
+        "prefix": "LBS_SORT",
+        "body": "\\$LBS_SORT",
+        "scope": "source.autoit"
+    },
+    "LBS_STANDARD": {
+        "prefix": "LBS_STANDARD",
+        "body": "\\$LBS_STANDARD",
+        "scope": "source.autoit"
+    },
+    "LBS_USETABSTOPS": {
+        "prefix": "LBS_USETABSTOPS",
+        "body": "\\$LBS_USETABSTOPS",
+        "scope": "source.autoit"
+    },
+    "LVS_ICON": {
+        "prefix": "LVS_ICON",
+        "body": "\\$LVS_ICON",
+        "scope": "source.autoit"
+    },
+    "LVS_REPORT": {
+        "prefix": "LVS_REPORT",
+        "body": "\\$LVS_REPORT",
+        "scope": "source.autoit"
+    },
+    "LVS_SMALLICON": {
+        "prefix": "LVS_SMALLICON",
+        "body": "\\$LVS_SMALLICON",
+        "scope": "source.autoit"
+    },
+    "LVS_LIST": {
+        "prefix": "LVS_LIST",
+        "body": "\\$LVS_LIST",
+        "scope": "source.autoit"
+    },
+    "LVS_EDITLABELS": {
+        "prefix": "LVS_EDITLABELS",
+        "body": "\\$LVS_EDITLABELS",
+        "scope": "source.autoit"
+    },
+    "LVS_NOCOLUMNHEADER": {
+        "prefix": "LVS_NOCOLUMNHEADER",
+        "body": "\\$LVS_NOCOLUMNHEADER",
+        "scope": "source.autoit"
+    },
+    "LVS_NOSORTHEADER": {
+        "prefix": "LVS_NOSORTHEADER",
+        "body": "\\$LVS_NOSORTHEADER",
+        "scope": "source.autoit"
+    },
+    "LVS_SINGLESEL": {
+        "prefix": "LVS_SINGLESEL",
+        "body": "\\$LVS_SINGLESEL",
+        "scope": "source.autoit"
+    },
+    "LVS_SHOWSELALWAYS": {
+        "prefix": "LVS_SHOWSELALWAYS",
+        "body": "\\$LVS_SHOWSELALWAYS",
+        "scope": "source.autoit"
+    },
+    "LVS_SORTASCENDING": {
+        "prefix": "LVS_SORTASCENDING",
+        "body": "\\$LVS_SORTASCENDING",
+        "scope": "source.autoit"
+    },
+    "LVS_SORTDESCENDING": {
+        "prefix": "LVS_SORTDESCENDING",
+        "body": "\\$LVS_SORTDESCENDING",
+        "scope": "source.autoit"
+    },
+    "LVS_NOLABELWRAP": {
+        "prefix": "LVS_NOLABELWRAP",
+        "body": "\\$LVS_NOLABELWRAP",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_FULLROWSELECT": {
+        "prefix": "LVS_EX_FULLROWSELECT",
+        "body": "\\$LVS_EX_FULLROWSELECT",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_GRIDLINES": {
+        "prefix": "LVS_EX_GRIDLINES",
+        "body": "\\$LVS_EX_GRIDLINES",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_HEADERDRAGDROP": {
+        "prefix": "LVS_EX_HEADERDRAGDROP",
+        "body": "\\$LVS_EX_HEADERDRAGDROP",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_TRACKSELECT": {
+        "prefix": "LVS_EX_TRACKSELECT",
+        "body": "\\$LVS_EX_TRACKSELECT",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_CHECKBOXES": {
+        "prefix": "LVS_EX_CHECKBOXES",
+        "body": "\\$LVS_EX_CHECKBOXES",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_BORDERSELECT": {
+        "prefix": "LVS_EX_BORDERSELECT",
+        "body": "\\$LVS_EX_BORDERSELECT",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_DOUBLEBUFFER": {
+        "prefix": "LVS_EX_DOUBLEBUFFER",
+        "body": "\\$LVS_EX_DOUBLEBUFFER",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_FLATSB": {
+        "prefix": "LVS_EX_FLATSB",
+        "body": "\\$LVS_EX_FLATSB",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_MULTIWORKAREAS": {
+        "prefix": "LVS_EX_MULTIWORKAREAS",
+        "body": "\\$LVS_EX_MULTIWORKAREAS",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_SNAPTOGRID": {
+        "prefix": "LVS_EX_SNAPTOGRID",
+        "body": "\\$LVS_EX_SNAPTOGRID",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_SUBITEMIMAGES": {
+        "prefix": "LVS_EX_SUBITEMIMAGES",
+        "body": "\\$LVS_EX_SUBITEMIMAGES",
+        "scope": "source.autoit"
+    },
+    "LVS_EX_INFOTIP": {
+        "prefix": "LVS_EX_INFOTIP",
+        "body": "\\$LVS_EX_INFOTIP",
+        "scope": "source.autoit"
+    },
+    "Switch...EndSwitch": {
+        "prefix": "Switch...EndSwitch",
+        "body": [
+            "Switch (${1:\\$variable})",
+            "\tCase ${2:6 To 11}",
+            "\t\t${3:true}",
+            "\tCase ${4:12 To 17}",
+            "\t\t${5:true}",
+            "\tCase Else",
+            "\t\t${6:false}",
+            "EndSwitch"
+        ],
+        "scope": "source.autoit",
+        "description": "Switch block snippet"
+    },
+    "Ternary": {
+        "prefix": "Ternary",
+        "body": "\\$${1:result} = ( ${2:\\$a == \\$b} ) ? ${3:true} : ${4:false}",
+        "scope": "source.autoit",
+        "description": "Ternary Conditional Operator"
+    },
+    "TCS_SCROLLOPPOSITE": {
+        "prefix": "TCS_SCROLLOPPOSITE",
+        "body": "\\$TCS_SCROLLOPPOSITE",
+        "scope": "source.autoit"
+    },
+    "TCS_BOTTOM": {
+        "prefix": "TCS_BOTTOM",
+        "body": "\\$TCS_BOTTOM",
+        "scope": "source.autoit"
+    },
+    "TCS_RIGHT": {
+        "prefix": "TCS_RIGHT",
+        "body": "\\$TCS_RIGHT",
+        "scope": "source.autoit"
+    },
+    "TCS_MULTISELECT": {
+        "prefix": "TCS_MULTISELECT",
+        "body": "\\$TCS_MULTISELECT",
+        "scope": "source.autoit"
+    },
+    "TCS_FLATBUTTONS": {
+        "prefix": "TCS_FLATBUTTONS",
+        "body": "\\$TCS_FLATBUTTONS",
+        "scope": "source.autoit"
+    },
+    "TCS_FORCEICONLEFT": {
+        "prefix": "TCS_FORCEICONLEFT",
+        "body": "\\$TCS_FORCEICONLEFT",
+        "scope": "source.autoit"
+    },
+    "TCS_FORCELABELLEFT": {
+        "prefix": "TCS_FORCELABELLEFT",
+        "body": "\\$TCS_FORCELABELLEFT",
+        "scope": "source.autoit"
+    },
+    "TCS_HOTTRACK": {
+        "prefix": "TCS_HOTTRACK",
+        "body": "\\$TCS_HOTTRACK",
+        "scope": "source.autoit"
+    },
+    "TCS_VERTICAL": {
+        "prefix": "TCS_VERTICAL",
+        "body": "\\$TCS_VERTICAL",
+        "scope": "source.autoit"
+    },
+    "TCS_TABS": {
+        "prefix": "TCS_TABS",
+        "body": "\\$TCS_TABS",
+        "scope": "source.autoit"
+    },
+    "TCS_BUTTONS": {
+        "prefix": "TCS_BUTTONS",
+        "body": "\\$TCS_BUTTONS",
+        "scope": "source.autoit"
+    },
+    "TCS_SINGLELINE": {
+        "prefix": "TCS_SINGLELINE",
+        "body": "\\$TCS_SINGLELINE",
+        "scope": "source.autoit"
+    },
+    "TCS_MULTILINE": {
+        "prefix": "TCS_MULTILINE",
+        "body": "\\$TCS_MULTILINE",
+        "scope": "source.autoit"
+    },
+    "TCS_RIGHTJUSTIFY": {
+        "prefix": "TCS_RIGHTJUSTIFY",
+        "body": "\\$TCS_RIGHTJUSTIFY",
+        "scope": "source.autoit"
+    },
+    "TCS_FIXEDWIDTH": {
+        "prefix": "TCS_FIXEDWIDTH",
+        "body": "\\$TCS_FIXEDWIDTH",
+        "scope": "source.autoit"
+    },
+    "TCS_RAGGEDRIGHT": {
+        "prefix": "TCS_RAGGEDRIGHT",
+        "body": "\\$TCS_RAGGEDRIGHT",
+        "scope": "source.autoit"
+    },
+    "TCS_FOCUSONBUTTONDOWN": {
+        "prefix": "TCS_FOCUSONBUTTONDOWN",
+        "body": "\\$TCS_FOCUSONBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "TCS_OWNERDRAWFIXED": {
+        "prefix": "TCS_OWNERDRAWFIXED",
+        "body": "\\$TCS_OWNERDRAWFIXED",
+        "scope": "source.autoit"
+    },
+    "TCS_TOOLTIPS": {
+        "prefix": "TCS_TOOLTIPS",
+        "body": "\\$TCS_TOOLTIPS",
+        "scope": "source.autoit"
+    },
+    "TCS_FOCUSNEVER": {
+        "prefix": "TCS_FOCUSNEVER",
+        "body": "\\$TCS_FOCUSNEVER",
+        "scope": "source.autoit"
+    },
+    "TVS_HASBUTTONS": {
+        "prefix": "TVS_HASBUTTONS",
+        "body": "\\$TVS_HASBUTTONS",
+        "scope": "source.autoit"
+    },
+    "TVS_HASLINES": {
+        "prefix": "TVS_HASLINES",
+        "body": "\\$TVS_HASLINES",
+        "scope": "source.autoit"
+    },
+    "TVS_LINESATROOT": {
+        "prefix": "TVS_LINESATROOT",
+        "body": "\\$TVS_LINESATROOT",
+        "scope": "source.autoit"
+    },
+    "TVS_DISABLEDRAGDROP": {
+        "prefix": "TVS_DISABLEDRAGDROP",
+        "body": "\\$TVS_DISABLEDRAGDROP",
+        "scope": "source.autoit"
+    },
+    "TVS_SHOWSELALWAYS": {
+        "prefix": "TVS_SHOWSELALWAYS",
+        "body": "\\$TVS_SHOWSELALWAYS",
+        "scope": "source.autoit"
+    },
+    "TVS_RTLREADING": {
+        "prefix": "TVS_RTLREADING",
+        "body": "\\$TVS_RTLREADING",
+        "scope": "source.autoit"
+    },
+    "TVS_NOTOOLTIPS": {
+        "prefix": "TVS_NOTOOLTIPS",
+        "body": "\\$TVS_NOTOOLTIPS",
+        "scope": "source.autoit"
+    },
+    "TVS_CHECKBOXES": {
+        "prefix": "TVS_CHECKBOXES",
+        "body": "\\$TVS_CHECKBOXES",
+        "scope": "source.autoit"
+    },
+    "TVS_TRACKSELECT": {
+        "prefix": "TVS_TRACKSELECT",
+        "body": "\\$TVS_TRACKSELECT",
+        "scope": "source.autoit"
+    },
+    "TVS_SINGLEEXPAND": {
+        "prefix": "TVS_SINGLEEXPAND",
+        "body": "\\$TVS_SINGLEEXPAND",
+        "scope": "source.autoit"
+    },
+    "TVS_FULLROWSELECT": {
+        "prefix": "TVS_FULLROWSELECT",
+        "body": "\\$TVS_FULLROWSELECT",
+        "scope": "source.autoit"
+    },
+    "TVS_NOSCROLL": {
+        "prefix": "TVS_NOSCROLL",
+        "body": "\\$TVS_NOSCROLL",
+        "scope": "source.autoit"
+    },
+    "TVS_NONEVENHEIGHT": {
+        "prefix": "TVS_NONEVENHEIGHT",
+        "body": "\\$TVS_NONEVENHEIGHT",
+        "scope": "source.autoit"
+    },
+    "TBS_AUTOTICKS": {
+        "prefix": "TBS_AUTOTICKS",
+        "body": "\\$TBS_AUTOTICKS",
+        "scope": "source.autoit"
+    },
+    "TBS_BOTH": {
+        "prefix": "TBS_BOTH",
+        "body": "\\$TBS_BOTH",
+        "scope": "source.autoit"
+    },
+    "TBS_BOTTOM": {
+        "prefix": "TBS_BOTTOM",
+        "body": "\\$TBS_BOTTOM",
+        "scope": "source.autoit"
+    },
+    "TBS_HORZ": {
+        "prefix": "TBS_HORZ",
+        "body": "\\$TBS_HORZ",
+        "scope": "source.autoit"
+    },
+    "TBS_VERT": {
+        "prefix": "TBS_VERT",
+        "body": "\\$TBS_VERT",
+        "scope": "source.autoit"
+    },
+    "TBS_NOTHUMB": {
+        "prefix": "TBS_NOTHUMB",
+        "body": "\\$TBS_NOTHUMB",
+        "scope": "source.autoit"
+    },
+    "TBS_NOTICKS": {
+        "prefix": "TBS_NOTICKS",
+        "body": "\\$TBS_NOTICKS",
+        "scope": "source.autoit"
+    },
+    "TBS_LEFT": {
+        "prefix": "TBS_LEFT",
+        "body": "\\$TBS_LEFT",
+        "scope": "source.autoit"
+    },
+    "TBS_RIGHT": {
+        "prefix": "TBS_RIGHT",
+        "body": "\\$TBS_RIGHT",
+        "scope": "source.autoit"
+    },
+    "TBS_TOP": {
+        "prefix": "TBS_TOP",
+        "body": "\\$TBS_TOP",
+        "scope": "source.autoit"
+    },
+    "While...WEnd": {
+        "prefix": "While",
+        "body": [
+            "While ( ${1:true} )",
+            "\t${2}",
+            "WEnd"
+        ],
+        "scope": "source.autoit",
+        "description": "While Loop snippet"
+    },
+    "WM_ACTIVATE": {
+        "prefix": "WM_ACTIVATE",
+        "body": "\\$WM_ACTIVATE",
+        "scope": "source.autoit"
+    },
+    "WM_ACTIVATEAPP": {
+        "prefix": "WM_ACTIVATEAPP",
+        "body": "\\$WM_ACTIVATEAPP",
+        "scope": "source.autoit"
+    },
+    "WM_AFXFIRST": {
+        "prefix": "WM_AFXFIRST",
+        "body": "\\$WM_AFXFIRST",
+        "scope": "source.autoit"
+    },
+    "WM_AFXLAST": {
+        "prefix": "WM_AFXLAST",
+        "body": "\\$WM_AFXLAST",
+        "scope": "source.autoit"
+    },
+    "WM_APP": {
+        "prefix": "WM_APP",
+        "body": "\\$WM_APP",
+        "scope": "source.autoit"
+    },
+    "WM_APPCOMMAND": {
+        "prefix": "WM_APPCOMMAND",
+        "body": "\\$WM_APPCOMMAND",
+        "scope": "source.autoit"
+    },
+    "WM_ASKCBFORMATNAME": {
+        "prefix": "WM_ASKCBFORMATNAME",
+        "body": "\\$WM_ASKCBFORMATNAME",
+        "scope": "source.autoit"
+    },
+    "WM_CANCELJOURNAL": {
+        "prefix": "WM_CANCELJOURNAL",
+        "body": "\\$WM_CANCELJOURNAL",
+        "scope": "source.autoit"
+    },
+    "WM_CANCELMODE": {
+        "prefix": "WM_CANCELMODE",
+        "body": "\\$WM_CANCELMODE",
+        "scope": "source.autoit"
+    },
+    "WM_CAPTURECHANGED": {
+        "prefix": "WM_CAPTURECHANGED",
+        "body": "\\$WM_CAPTURECHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_CHANGECBCHAIN": {
+        "prefix": "WM_CHANGECBCHAIN",
+        "body": "\\$WM_CHANGECBCHAIN",
+        "scope": "source.autoit"
+    },
+    "WM_CHANGEUISTATE": {
+        "prefix": "WM_CHANGEUISTATE",
+        "body": "\\$WM_CHANGEUISTATE",
+        "scope": "source.autoit"
+    },
+    "WM_CHAR": {
+        "prefix": "WM_CHAR",
+        "body": "\\$WM_CHAR",
+        "scope": "source.autoit"
+    },
+    "WM_CHARTOITEM": {
+        "prefix": "WM_CHARTOITEM",
+        "body": "\\$WM_CHARTOITEM",
+        "scope": "source.autoit"
+    },
+    "WM_CHILDACTIVATE": {
+        "prefix": "WM_CHILDACTIVATE",
+        "body": "\\$WM_CHILDACTIVATE",
+        "scope": "source.autoit"
+    },
+    "WM_CLEAR": {
+        "prefix": "WM_CLEAR",
+        "body": "\\$WM_CLEAR",
+        "scope": "source.autoit"
+    },
+    "WM_CLOSE": {
+        "prefix": "WM_CLOSE",
+        "body": "\\$WM_CLOSE",
+        "scope": "source.autoit"
+    },
+    "WM_COMMAND": {
+        "prefix": "WM_COMMAND",
+        "body": "\\$WM_COMMAND",
+        "scope": "source.autoit"
+    },
+    "WM_COMMNOTIFY": {
+        "prefix": "WM_COMMNOTIFY",
+        "body": "\\$WM_COMMNOTIFY",
+        "scope": "source.autoit"
+    },
+    "WM_COMPACTING": {
+        "prefix": "WM_COMPACTING",
+        "body": "\\$WM_COMPACTING",
+        "scope": "source.autoit"
+    },
+    "WM_COMPAREITEM": {
+        "prefix": "WM_COMPAREITEM",
+        "body": "\\$WM_COMPAREITEM",
+        "scope": "source.autoit"
+    },
+    "WM_CONTEXTMENU": {
+        "prefix": "WM_CONTEXTMENU",
+        "body": "\\$WM_CONTEXTMENU",
+        "scope": "source.autoit"
+    },
+    "WM_COPY": {
+        "prefix": "WM_COPY",
+        "body": "\\$WM_COPY",
+        "scope": "source.autoit"
+    },
+    "WM_COPYDATA": {
+        "prefix": "WM_COPYDATA",
+        "body": "\\$WM_COPYDATA",
+        "scope": "source.autoit"
+    },
+    "WM_CREATE": {
+        "prefix": "WM_CREATE",
+        "body": "\\$WM_CREATE",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORBTN": {
+        "prefix": "WM_CTLCOLORBTN",
+        "body": "\\$WM_CTLCOLORBTN",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORDLG": {
+        "prefix": "WM_CTLCOLORDLG",
+        "body": "\\$WM_CTLCOLORDLG",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLOREDIT": {
+        "prefix": "WM_CTLCOLOREDIT",
+        "body": "\\$WM_CTLCOLOREDIT",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORLISTBOX": {
+        "prefix": "WM_CTLCOLORLISTBOX",
+        "body": "\\$WM_CTLCOLORLISTBOX",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORMSGBOX": {
+        "prefix": "WM_CTLCOLORMSGBOX",
+        "body": "\\$WM_CTLCOLORMSGBOX",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORSCROLLBAR": {
+        "prefix": "WM_CTLCOLORSCROLLBAR",
+        "body": "\\$WM_CTLCOLORSCROLLBAR",
+        "scope": "source.autoit"
+    },
+    "WM_CTLCOLORSTATIC": {
+        "prefix": "WM_CTLCOLORSTATIC",
+        "body": "\\$WM_CTLCOLORSTATIC",
+        "scope": "source.autoit"
+    },
+    "WM_CUT": {
+        "prefix": "WM_CUT",
+        "body": "\\$WM_CUT",
+        "scope": "source.autoit"
+    },
+    "WM_DEADCHAR": {
+        "prefix": "WM_DEADCHAR",
+        "body": "\\$WM_DEADCHAR",
+        "scope": "source.autoit"
+    },
+    "WM_DELETEITEM": {
+        "prefix": "WM_DELETEITEM",
+        "body": "\\$WM_DELETEITEM",
+        "scope": "source.autoit"
+    },
+    "WM_DESTROY": {
+        "prefix": "WM_DESTROY",
+        "body": "\\$WM_DESTROY",
+        "scope": "source.autoit"
+    },
+    "WM_DESTROYCLIPBOARD": {
+        "prefix": "WM_DESTROYCLIPBOARD",
+        "body": "\\$WM_DESTROYCLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_DEVICECHANGE": {
+        "prefix": "WM_DEVICECHANGE",
+        "body": "\\$WM_DEVICECHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_DEVMODECHANGE": {
+        "prefix": "WM_DEVMODECHANGE",
+        "body": "\\$WM_DEVMODECHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_DISPLAYCHANGE": {
+        "prefix": "WM_DISPLAYCHANGE",
+        "body": "\\$WM_DISPLAYCHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_DRAWCLIPBOARD": {
+        "prefix": "WM_DRAWCLIPBOARD",
+        "body": "\\$WM_DRAWCLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_DRAWITEM": {
+        "prefix": "WM_DRAWITEM",
+        "body": "\\$WM_DRAWITEM",
+        "scope": "source.autoit"
+    },
+    "WM_DROPFILES": {
+        "prefix": "WM_DROPFILES",
+        "body": "\\$WM_DROPFILES",
+        "scope": "source.autoit"
+    },
+    "WM_ENABLE": {
+        "prefix": "WM_ENABLE",
+        "body": "\\$WM_ENABLE",
+        "scope": "source.autoit"
+    },
+    "WM_ENDSESSION": {
+        "prefix": "WM_ENDSESSION",
+        "body": "\\$WM_ENDSESSION",
+        "scope": "source.autoit"
+    },
+    "WM_ENTERIDLE": {
+        "prefix": "WM_ENTERIDLE",
+        "body": "\\$WM_ENTERIDLE",
+        "scope": "source.autoit"
+    },
+    "WM_ENTERMENULOOP": {
+        "prefix": "WM_ENTERMENULOOP",
+        "body": "\\$WM_ENTERMENULOOP",
+        "scope": "source.autoit"
+    },
+    "WM_ENTERSIZEMOVE": {
+        "prefix": "WM_ENTERSIZEMOVE",
+        "body": "\\$WM_ENTERSIZEMOVE",
+        "scope": "source.autoit"
+    },
+    "WM_ERASEBKGND": {
+        "prefix": "WM_ERASEBKGND",
+        "body": "\\$WM_ERASEBKGND",
+        "scope": "source.autoit"
+    },
+    "WM_EXITMENULOOP": {
+        "prefix": "WM_EXITMENULOOP",
+        "body": "\\$WM_EXITMENULOOP",
+        "scope": "source.autoit"
+    },
+    "WM_EXITSIZEMOVE": {
+        "prefix": "WM_EXITSIZEMOVE",
+        "body": "\\$WM_EXITSIZEMOVE",
+        "scope": "source.autoit"
+    },
+    "WM_FONTCHANGE": {
+        "prefix": "WM_FONTCHANGE",
+        "body": "\\$WM_FONTCHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_GETDLGCODE": {
+        "prefix": "WM_GETDLGCODE",
+        "body": "\\$WM_GETDLGCODE",
+        "scope": "source.autoit"
+    },
+    "WM_GETFONT": {
+        "prefix": "WM_GETFONT",
+        "body": "\\$WM_GETFONT",
+        "scope": "source.autoit"
+    },
+    "WM_GETHOTKEY": {
+        "prefix": "WM_GETHOTKEY",
+        "body": "\\$WM_GETHOTKEY",
+        "scope": "source.autoit"
+    },
+    "WM_GETICON": {
+        "prefix": "WM_GETICON",
+        "body": "\\$WM_GETICON",
+        "scope": "source.autoit"
+    },
+    "WM_GETMINMAXINFO": {
+        "prefix": "WM_GETMINMAXINFO",
+        "body": "\\$WM_GETMINMAXINFO",
+        "scope": "source.autoit"
+    },
+    "WM_GETOBJECT": {
+        "prefix": "WM_GETOBJECT",
+        "body": "\\$WM_GETOBJECT",
+        "scope": "source.autoit"
+    },
+    "WM_GETTEXT": {
+        "prefix": "WM_GETTEXT",
+        "body": "\\$WM_GETTEXT",
+        "scope": "source.autoit"
+    },
+    "WM_GETTEXTLENGTH": {
+        "prefix": "WM_GETTEXTLENGTH",
+        "body": "\\$WM_GETTEXTLENGTH",
+        "scope": "source.autoit"
+    },
+    "WM_HANDHELDFIRST": {
+        "prefix": "WM_HANDHELDFIRST",
+        "body": "\\$WM_HANDHELDFIRST",
+        "scope": "source.autoit"
+    },
+    "WM_HANDHELDLAST": {
+        "prefix": "WM_HANDHELDLAST",
+        "body": "\\$WM_HANDHELDLAST",
+        "scope": "source.autoit"
+    },
+    "WM_HELP": {
+        "prefix": "WM_HELP",
+        "body": "\\$WM_HELP",
+        "scope": "source.autoit"
+    },
+    "WM_HOTKEY": {
+        "prefix": "WM_HOTKEY",
+        "body": "\\$WM_HOTKEY",
+        "scope": "source.autoit"
+    },
+    "WM_HSCROLL": {
+        "prefix": "WM_HSCROLL",
+        "body": "\\$WM_HSCROLL",
+        "scope": "source.autoit"
+    },
+    "WM_HSCROLLCLIPBOARD": {
+        "prefix": "WM_HSCROLLCLIPBOARD",
+        "body": "\\$WM_HSCROLLCLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_ICONERASEBKGND": {
+        "prefix": "WM_ICONERASEBKGND",
+        "body": "\\$WM_ICONERASEBKGND",
+        "scope": "source.autoit"
+    },
+    "WM_IME_CHAR": {
+        "prefix": "WM_IME_CHAR",
+        "body": "\\$WM_IME_CHAR",
+        "scope": "source.autoit"
+    },
+    "WM_IME_COMPOSITION": {
+        "prefix": "WM_IME_COMPOSITION",
+        "body": "\\$WM_IME_COMPOSITION",
+        "scope": "source.autoit"
+    },
+    "WM_IME_COMPOSITIONFULL": {
+        "prefix": "WM_IME_COMPOSITIONFULL",
+        "body": "\\$WM_IME_COMPOSITIONFULL",
+        "scope": "source.autoit"
+    },
+    "WM_IME_CONTROL": {
+        "prefix": "WM_IME_CONTROL",
+        "body": "\\$WM_IME_CONTROL",
+        "scope": "source.autoit"
+    },
+    "WM_IME_ENDCOMPOSITION": {
+        "prefix": "WM_IME_ENDCOMPOSITION",
+        "body": "\\$WM_IME_ENDCOMPOSITION",
+        "scope": "source.autoit"
+    },
+    "WM_IME_KEYDOWN": {
+        "prefix": "WM_IME_KEYDOWN",
+        "body": "\\$WM_IME_KEYDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_IME_KEYLAST": {
+        "prefix": "WM_IME_KEYLAST",
+        "body": "\\$WM_IME_KEYLAST",
+        "scope": "source.autoit"
+    },
+    "WM_IME_KEYUP": {
+        "prefix": "WM_IME_KEYUP",
+        "body": "\\$WM_IME_KEYUP",
+        "scope": "source.autoit"
+    },
+    "WM_IME_NOTIFY": {
+        "prefix": "WM_IME_NOTIFY",
+        "body": "\\$WM_IME_NOTIFY",
+        "scope": "source.autoit"
+    },
+    "WM_IME_REQUEST": {
+        "prefix": "WM_IME_REQUEST",
+        "body": "\\$WM_IME_REQUEST",
+        "scope": "source.autoit"
+    },
+    "WM_IME_SELECT": {
+        "prefix": "WM_IME_SELECT",
+        "body": "\\$WM_IME_SELECT",
+        "scope": "source.autoit"
+    },
+    "WM_IME_SETCONTEXT": {
+        "prefix": "WM_IME_SETCONTEXT",
+        "body": "\\$WM_IME_SETCONTEXT",
+        "scope": "source.autoit"
+    },
+    "WM_IME_STARTCOMPOSITION": {
+        "prefix": "WM_IME_STARTCOMPOSITION",
+        "body": "\\$WM_IME_STARTCOMPOSITION",
+        "scope": "source.autoit"
+    },
+    "WM_INITDIALOG": {
+        "prefix": "WM_INITDIALOG",
+        "body": "\\$WM_INITDIALOG",
+        "scope": "source.autoit"
+    },
+    "WM_INITMENU": {
+        "prefix": "WM_INITMENU",
+        "body": "\\$WM_INITMENU",
+        "scope": "source.autoit"
+    },
+    "WM_INITMENUPOPUP": {
+        "prefix": "WM_INITMENUPOPUP",
+        "body": "\\$WM_INITMENUPOPUP",
+        "scope": "source.autoit"
+    },
+    "WM_INPUT": {
+        "prefix": "WM_INPUT",
+        "body": "\\$WM_INPUT",
+        "scope": "source.autoit"
+    },
+    "WM_INPUTLANGCHANGE": {
+        "prefix": "WM_INPUTLANGCHANGE",
+        "body": "\\$WM_INPUTLANGCHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_INPUTLANGCHANGEREQUEST": {
+        "prefix": "WM_INPUTLANGCHANGEREQUEST",
+        "body": "\\$WM_INPUTLANGCHANGEREQUEST",
+        "scope": "source.autoit"
+    },
+    "WM_KEYDOWN": {
+        "prefix": "WM_KEYDOWN",
+        "body": "\\$WM_KEYDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_KEYFIRST": {
+        "prefix": "WM_KEYFIRST",
+        "body": "\\$WM_KEYFIRST",
+        "scope": "source.autoit"
+    },
+    "WM_KEYLAST": {
+        "prefix": "WM_KEYLAST",
+        "body": "\\$WM_KEYLAST",
+        "scope": "source.autoit"
+    },
+    "WM_KEYUP": {
+        "prefix": "WM_KEYUP",
+        "body": "\\$WM_KEYUP",
+        "scope": "source.autoit"
+    },
+    "WM_KILLFOCUS": {
+        "prefix": "WM_KILLFOCUS",
+        "body": "\\$WM_KILLFOCUS",
+        "scope": "source.autoit"
+    },
+    "WM_LBUTTONDBLCLK": {
+        "prefix": "WM_LBUTTONDBLCLK",
+        "body": "\\$WM_LBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_LBUTTONDOWN": {
+        "prefix": "WM_LBUTTONDOWN",
+        "body": "\\$WM_LBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_LBUTTONUP": {
+        "prefix": "WM_LBUTTONUP",
+        "body": "\\$WM_LBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_MBUTTONDBLCLK": {
+        "prefix": "WM_MBUTTONDBLCLK",
+        "body": "\\$WM_MBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_MBUTTONDOWN": {
+        "prefix": "WM_MBUTTONDOWN",
+        "body": "\\$WM_MBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_MBUTTONUP": {
+        "prefix": "WM_MBUTTONUP",
+        "body": "\\$WM_MBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_MDIACTIVATE": {
+        "prefix": "WM_MDIACTIVATE",
+        "body": "\\$WM_MDIACTIVATE",
+        "scope": "source.autoit"
+    },
+    "WM_MDICASCADE": {
+        "prefix": "WM_MDICASCADE",
+        "body": "\\$WM_MDICASCADE",
+        "scope": "source.autoit"
+    },
+    "WM_MDICREATE": {
+        "prefix": "WM_MDICREATE",
+        "body": "\\$WM_MDICREATE",
+        "scope": "source.autoit"
+    },
+    "WM_MDIDESTROY": {
+        "prefix": "WM_MDIDESTROY",
+        "body": "\\$WM_MDIDESTROY",
+        "scope": "source.autoit"
+    },
+    "WM_MDIGETACTIVE": {
+        "prefix": "WM_MDIGETACTIVE",
+        "body": "\\$WM_MDIGETACTIVE",
+        "scope": "source.autoit"
+    },
+    "WM_MDIICONARRANGE": {
+        "prefix": "WM_MDIICONARRANGE",
+        "body": "\\$WM_MDIICONARRANGE",
+        "scope": "source.autoit"
+    },
+    "WM_MDIMAXIMIZE": {
+        "prefix": "WM_MDIMAXIMIZE",
+        "body": "\\$WM_MDIMAXIMIZE",
+        "scope": "source.autoit"
+    },
+    "WM_MDINEXT": {
+        "prefix": "WM_MDINEXT",
+        "body": "\\$WM_MDINEXT",
+        "scope": "source.autoit"
+    },
+    "WM_MDIREFRESHMENU": {
+        "prefix": "WM_MDIREFRESHMENU",
+        "body": "\\$WM_MDIREFRESHMENU",
+        "scope": "source.autoit"
+    },
+    "WM_MDIRESTORE": {
+        "prefix": "WM_MDIRESTORE",
+        "body": "\\$WM_MDIRESTORE",
+        "scope": "source.autoit"
+    },
+    "WM_MDISETMENU": {
+        "prefix": "WM_MDISETMENU",
+        "body": "\\$WM_MDISETMENU",
+        "scope": "source.autoit"
+    },
+    "WM_MDITILE": {
+        "prefix": "WM_MDITILE",
+        "body": "\\$WM_MDITILE",
+        "scope": "source.autoit"
+    },
+    "WM_MEASUREITEM": {
+        "prefix": "WM_MEASUREITEM",
+        "body": "\\$WM_MEASUREITEM",
+        "scope": "source.autoit"
+    },
+    "WM_MENUCHAR": {
+        "prefix": "WM_MENUCHAR",
+        "body": "\\$WM_MENUCHAR",
+        "scope": "source.autoit"
+    },
+    "WM_MENUCOMMAND": {
+        "prefix": "WM_MENUCOMMAND",
+        "body": "\\$WM_MENUCOMMAND",
+        "scope": "source.autoit"
+    },
+    "WM_MENUDRAG": {
+        "prefix": "WM_MENUDRAG",
+        "body": "\\$WM_MENUDRAG",
+        "scope": "source.autoit"
+    },
+    "WM_MENUGETOBJECT": {
+        "prefix": "WM_MENUGETOBJECT",
+        "body": "\\$WM_MENUGETOBJECT",
+        "scope": "source.autoit"
+    },
+    "WM_MENURBUTTONUP": {
+        "prefix": "WM_MENURBUTTONUP",
+        "body": "\\$WM_MENURBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_MENUSELECT": {
+        "prefix": "WM_MENUSELECT",
+        "body": "\\$WM_MENUSELECT",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSEACTIVATE": {
+        "prefix": "WM_MOUSEACTIVATE",
+        "body": "\\$WM_MOUSEACTIVATE",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSEFIRST": {
+        "prefix": "WM_MOUSEFIRST",
+        "body": "\\$WM_MOUSEFIRST",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSEHOVER": {
+        "prefix": "WM_MOUSEHOVER",
+        "body": "\\$WM_MOUSEHOVER",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSELAS": {
+        "prefix": "WM_MOUSELAST(NT4,98)",
+        "body": "\\$WM_MOUSELAST(NT4,98)",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSELEAVE": {
+        "prefix": "WM_MOUSELEAVE",
+        "body": "\\$WM_MOUSELEAVE",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSEMOVE": {
+        "prefix": "WM_MOUSEMOVE",
+        "body": "\\$WM_MOUSEMOVE",
+        "scope": "source.autoit"
+    },
+    "WM_MOUSEWHEEL": {
+        "prefix": "WM_MOUSEWHEEL",
+        "body": "\\$WM_MOUSEWHEEL",
+        "scope": "source.autoit"
+    },
+    "WM_MOVE": {
+        "prefix": "WM_MOVE",
+        "body": "\\$WM_MOVE",
+        "scope": "source.autoit"
+    },
+    "WM_MOVING": {
+        "prefix": "WM_MOVING",
+        "body": "\\$WM_MOVING",
+        "scope": "source.autoit"
+    },
+    "WM_NCACTIVATE": {
+        "prefix": "WM_NCACTIVATE",
+        "body": "\\$WM_NCACTIVATE",
+        "scope": "source.autoit"
+    },
+    "WM_NCCALCSIZE": {
+        "prefix": "WM_NCCALCSIZE",
+        "body": "\\$WM_NCCALCSIZE",
+        "scope": "source.autoit"
+    },
+    "WM_NCCREATE": {
+        "prefix": "WM_NCCREATE",
+        "body": "\\$WM_NCCREATE",
+        "scope": "source.autoit"
+    },
+    "WM_NCDESTROY": {
+        "prefix": "WM_NCDESTROY",
+        "body": "\\$WM_NCDESTROY",
+        "scope": "source.autoit"
+    },
+    "WM_NCHITTEST": {
+        "prefix": "WM_NCHITTEST",
+        "body": "\\$WM_NCHITTEST",
+        "scope": "source.autoit"
+    },
+    "WM_NCLBUTTONDBLCLK": {
+        "prefix": "WM_NCLBUTTONDBLCLK",
+        "body": "\\$WM_NCLBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_NCLBUTTONDOWN": {
+        "prefix": "WM_NCLBUTTONDOWN",
+        "body": "\\$WM_NCLBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_NCLBUTTONUP": {
+        "prefix": "WM_NCLBUTTONUP",
+        "body": "\\$WM_NCLBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_NCMBUTTONDBLCLK": {
+        "prefix": "WM_NCMBUTTONDBLCLK",
+        "body": "\\$WM_NCMBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_NCMBUTTONDOWN": {
+        "prefix": "WM_NCMBUTTONDOWN",
+        "body": "\\$WM_NCMBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_NCMBUTTONUP": {
+        "prefix": "WM_NCMBUTTONUP",
+        "body": "\\$WM_NCMBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_NCMOUSEHOVER": {
+        "prefix": "WM_NCMOUSEHOVER",
+        "body": "\\$WM_NCMOUSEHOVER",
+        "scope": "source.autoit"
+    },
+    "WM_NCMOUSELEAVE": {
+        "prefix": "WM_NCMOUSELEAVE",
+        "body": "\\$WM_NCMOUSELEAVE",
+        "scope": "source.autoit"
+    },
+    "WM_NCMOUSEMOVE": {
+        "prefix": "WM_NCMOUSEMOVE",
+        "body": "\\$WM_NCMOUSEMOVE",
+        "scope": "source.autoit"
+    },
+    "WM_NCPAINT": {
+        "prefix": "WM_NCPAINT",
+        "body": "\\$WM_NCPAINT",
+        "scope": "source.autoit"
+    },
+    "WM_NCRBUTTONDBLCLK": {
+        "prefix": "WM_NCRBUTTONDBLCLK",
+        "body": "\\$WM_NCRBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_NCRBUTTONDOWN": {
+        "prefix": "WM_NCRBUTTONDOWN",
+        "body": "\\$WM_NCRBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_NCRBUTTONUP": {
+        "prefix": "WM_NCRBUTTONUP",
+        "body": "\\$WM_NCRBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_NCXBUTTONDBLCLK": {
+        "prefix": "WM_NCXBUTTONDBLCLK",
+        "body": "\\$WM_NCXBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_NCXBUTTONDOWN": {
+        "prefix": "WM_NCXBUTTONDOWN",
+        "body": "\\$WM_NCXBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_NCXBUTTONUP": {
+        "prefix": "WM_NCXBUTTONUP",
+        "body": "\\$WM_NCXBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_NEXTDLGCTL": {
+        "prefix": "WM_NEXTDLGCTL",
+        "body": "\\$WM_NEXTDLGCTL",
+        "scope": "source.autoit"
+    },
+    "WM_NEXTMENU": {
+        "prefix": "WM_NEXTMENU",
+        "body": "\\$WM_NEXTMENU",
+        "scope": "source.autoit"
+    },
+    "WM_NOTIFY": {
+        "prefix": "WM_NOTIFY",
+        "body": "\\$WM_NOTIFY",
+        "scope": "source.autoit"
+    },
+    "WM_NOTIFYFORMAT": {
+        "prefix": "WM_NOTIFYFORMAT",
+        "body": "\\$WM_NOTIFYFORMAT",
+        "scope": "source.autoit"
+    },
+    "WM_NULL": {
+        "prefix": "WM_NULL",
+        "body": "\\$WM_NULL",
+        "scope": "source.autoit"
+    },
+    "WM_PAINT": {
+        "prefix": "WM_PAINT",
+        "body": "\\$WM_PAINT",
+        "scope": "source.autoit"
+    },
+    "WM_PAINTCLIPBOARD": {
+        "prefix": "WM_PAINTCLIPBOARD",
+        "body": "\\$WM_PAINTCLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_PAINTICON": {
+        "prefix": "WM_PAINTICON",
+        "body": "\\$WM_PAINTICON",
+        "scope": "source.autoit"
+    },
+    "WM_PALETTECHANGED": {
+        "prefix": "WM_PALETTECHANGED",
+        "body": "\\$WM_PALETTECHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_PALETTEISCHANGING": {
+        "prefix": "WM_PALETTEISCHANGING",
+        "body": "\\$WM_PALETTEISCHANGING",
+        "scope": "source.autoit"
+    },
+    "WM_PARENTNOTIFY": {
+        "prefix": "WM_PARENTNOTIFY",
+        "body": "\\$WM_PARENTNOTIFY",
+        "scope": "source.autoit"
+    },
+    "WM_PASTE": {
+        "prefix": "WM_PASTE",
+        "body": "\\$WM_PASTE",
+        "scope": "source.autoit"
+    },
+    "WM_PENWINFIRST": {
+        "prefix": "WM_PENWINFIRST",
+        "body": "\\$WM_PENWINFIRST",
+        "scope": "source.autoit"
+    },
+    "WM_PENWINLAST": {
+        "prefix": "WM_PENWINLAST",
+        "body": "\\$WM_PENWINLAST",
+        "scope": "source.autoit"
+    },
+    "WM_POWER": {
+        "prefix": "WM_POWER",
+        "body": "\\$WM_POWER",
+        "scope": "source.autoit"
+    },
+    "WM_POWERBROADCAST": {
+        "prefix": "WM_POWERBROADCAST",
+        "body": "\\$WM_POWERBROADCAST",
+        "scope": "source.autoit"
+    },
+    "WM_PRINT": {
+        "prefix": "WM_PRINT",
+        "body": "\\$WM_PRINT",
+        "scope": "source.autoit"
+    },
+    "WM_PRINTCLIENT": {
+        "prefix": "WM_PRINTCLIENT",
+        "body": "\\$WM_PRINTCLIENT",
+        "scope": "source.autoit"
+    },
+    "WM_QUERYDRAGICON": {
+        "prefix": "WM_QUERYDRAGICON",
+        "body": "\\$WM_QUERYDRAGICON",
+        "scope": "source.autoit"
+    },
+    "WM_QUERYENDSESSION": {
+        "prefix": "WM_QUERYENDSESSION",
+        "body": "\\$WM_QUERYENDSESSION",
+        "scope": "source.autoit"
+    },
+    "WM_QUERYNEWPALETTE": {
+        "prefix": "WM_QUERYNEWPALETTE",
+        "body": "\\$WM_QUERYNEWPALETTE",
+        "scope": "source.autoit"
+    },
+    "WM_QUERYOPEN": {
+        "prefix": "WM_QUERYOPEN",
+        "body": "\\$WM_QUERYOPEN",
+        "scope": "source.autoit"
+    },
+    "WM_QUERYUISTATE": {
+        "prefix": "WM_QUERYUISTATE",
+        "body": "\\$WM_QUERYUISTATE",
+        "scope": "source.autoit"
+    },
+    "WM_QUEUESYNC": {
+        "prefix": "WM_QUEUESYNC",
+        "body": "\\$WM_QUEUESYNC",
+        "scope": "source.autoit"
+    },
+    "WM_QUIT": {
+        "prefix": "WM_QUIT",
+        "body": "\\$WM_QUIT",
+        "scope": "source.autoit"
+    },
+    "WM_RBUTTONDBLCLK": {
+        "prefix": "WM_RBUTTONDBLCLK",
+        "body": "\\$WM_RBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_RBUTTONDOWN": {
+        "prefix": "WM_RBUTTONDOWN",
+        "body": "\\$WM_RBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_RBUTTONUP": {
+        "prefix": "WM_RBUTTONUP",
+        "body": "\\$WM_RBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WM_RENDERALLFORMATS": {
+        "prefix": "WM_RENDERALLFORMATS",
+        "body": "\\$WM_RENDERALLFORMATS",
+        "scope": "source.autoit"
+    },
+    "WM_RENDERFORMAT": {
+        "prefix": "WM_RENDERFORMAT",
+        "body": "\\$WM_RENDERFORMAT",
+        "scope": "source.autoit"
+    },
+    "WM_SETCURSOR": {
+        "prefix": "WM_SETCURSOR",
+        "body": "\\$WM_SETCURSOR",
+        "scope": "source.autoit"
+    },
+    "WM_SETFOCUS": {
+        "prefix": "WM_SETFOCUS",
+        "body": "\\$WM_SETFOCUS",
+        "scope": "source.autoit"
+    },
+    "WM_SETFONT": {
+        "prefix": "WM_SETFONT",
+        "body": "\\$WM_SETFONT",
+        "scope": "source.autoit"
+    },
+    "WM_SETHOTKEY": {
+        "prefix": "WM_SETHOTKEY",
+        "body": "\\$WM_SETHOTKEY",
+        "scope": "source.autoit"
+    },
+    "WM_SETICON": {
+        "prefix": "WM_SETICON",
+        "body": "\\$WM_SETICON",
+        "scope": "source.autoit"
+    },
+    "WM_SETREDRAW": {
+        "prefix": "WM_SETREDRAW",
+        "body": "\\$WM_SETREDRAW",
+        "scope": "source.autoit"
+    },
+    "WM_SETTEXT": {
+        "prefix": "WM_SETTEXT",
+        "body": "\\$WM_SETTEXT",
+        "scope": "source.autoit"
+    },
+    "WM_SETTINGCHANGE": {
+        "prefix": "WM_SETTINGCHANGE",
+        "body": "\\$WM_SETTINGCHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_SHOWWINDOW": {
+        "prefix": "WM_SHOWWINDOW",
+        "body": "\\$WM_SHOWWINDOW",
+        "scope": "source.autoit"
+    },
+    "WM_SIZE": {
+        "prefix": "WM_SIZE",
+        "body": "\\$WM_SIZE",
+        "scope": "source.autoit"
+    },
+    "WM_SIZECLIPBOARD": {
+        "prefix": "WM_SIZECLIPBOARD",
+        "body": "\\$WM_SIZECLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_SIZING": {
+        "prefix": "WM_SIZING",
+        "body": "\\$WM_SIZING",
+        "scope": "source.autoit"
+    },
+    "WM_SPOOLERSTATUS": {
+        "prefix": "WM_SPOOLERSTATUS",
+        "body": "\\$WM_SPOOLERSTATUS",
+        "scope": "source.autoit"
+    },
+    "WM_STYLECHANGED": {
+        "prefix": "WM_STYLECHANGED",
+        "body": "\\$WM_STYLECHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_STYLECHANGING": {
+        "prefix": "WM_STYLECHANGING",
+        "body": "\\$WM_STYLECHANGING",
+        "scope": "source.autoit"
+    },
+    "WM_SYNCPAINT": {
+        "prefix": "WM_SYNCPAINT",
+        "body": "\\$WM_SYNCPAINT",
+        "scope": "source.autoit"
+    },
+    "WM_SYSCHAR": {
+        "prefix": "WM_SYSCHAR",
+        "body": "\\$WM_SYSCHAR",
+        "scope": "source.autoit"
+    },
+    "WM_SYSCOLORCHANGE": {
+        "prefix": "WM_SYSCOLORCHANGE",
+        "body": "\\$WM_SYSCOLORCHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_SYSCOMMAND": {
+        "prefix": "WM_SYSCOMMAND",
+        "body": "\\$WM_SYSCOMMAND",
+        "scope": "source.autoit"
+    },
+    "WM_SYSDEADCHAR": {
+        "prefix": "WM_SYSDEADCHAR",
+        "body": "\\$WM_SYSDEADCHAR",
+        "scope": "source.autoit"
+    },
+    "WM_SYSKEYDOWN": {
+        "prefix": "WM_SYSKEYDOWN",
+        "body": "\\$WM_SYSKEYDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_SYSKEYUP": {
+        "prefix": "WM_SYSKEYUP",
+        "body": "\\$WM_SYSKEYUP",
+        "scope": "source.autoit"
+    },
+    "WM_TABLET_FIRST": {
+        "prefix": "WM_TABLET_FIRST",
+        "body": "\\$WM_TABLET_FIRST",
+        "scope": "source.autoit"
+    },
+    "WM_TABLET_LAST": {
+        "prefix": "WM_TABLET_LAST",
+        "body": "\\$WM_TABLET_LAST",
+        "scope": "source.autoit"
+    },
+    "WM_TCARD": {
+        "prefix": "WM_TCARD",
+        "body": "\\$WM_TCARD",
+        "scope": "source.autoit"
+    },
+    "WM_THEMECHANGED": {
+        "prefix": "WM_THEMECHANGED",
+        "body": "\\$WM_THEMECHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_TIMECHANGE": {
+        "prefix": "WM_TIMECHANGE",
+        "body": "\\$WM_TIMECHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_TIMER": {
+        "prefix": "WM_TIMER",
+        "body": "\\$WM_TIMER",
+        "scope": "source.autoit"
+    },
+    "WM_UNDO": {
+        "prefix": "WM_UNDO",
+        "body": "\\$WM_UNDO",
+        "scope": "source.autoit"
+    },
+    "WM_UNICHAR": {
+        "prefix": "WM_UNICHAR",
+        "body": "\\$WM_UNICHAR",
+        "scope": "source.autoit"
+    },
+    "WM_UNINITMENUPOPUP": {
+        "prefix": "WM_UNINITMENUPOPUP",
+        "body": "\\$WM_UNINITMENUPOPUP",
+        "scope": "source.autoit"
+    },
+    "WM_UPDATEUISTATE": {
+        "prefix": "WM_UPDATEUISTATE",
+        "body": "\\$WM_UPDATEUISTATE",
+        "scope": "source.autoit"
+    },
+    "WM_USER": {
+        "prefix": "WM_USER",
+        "body": "\\$WM_USER",
+        "scope": "source.autoit"
+    },
+    "WM_USERCHANGED": {
+        "prefix": "WM_USERCHANGED",
+        "body": "\\$WM_USERCHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_VKEYTOITEM": {
+        "prefix": "WM_VKEYTOITEM",
+        "body": "\\$WM_VKEYTOITEM",
+        "scope": "source.autoit"
+    },
+    "WM_VSCROLL": {
+        "prefix": "WM_VSCROLL",
+        "body": "\\$WM_VSCROLL",
+        "scope": "source.autoit"
+    },
+    "WM_VSCROLLCLIPBOARD": {
+        "prefix": "WM_VSCROLLCLIPBOARD",
+        "body": "\\$WM_VSCROLLCLIPBOARD",
+        "scope": "source.autoit"
+    },
+    "WM_WINDOWPOSCHANGED": {
+        "prefix": "WM_WINDOWPOSCHANGED",
+        "body": "\\$WM_WINDOWPOSCHANGED",
+        "scope": "source.autoit"
+    },
+    "WM_WINDOWPOSCHANGING": {
+        "prefix": "WM_WINDOWPOSCHANGING",
+        "body": "\\$WM_WINDOWPOSCHANGING",
+        "scope": "source.autoit"
+    },
+    "WM_WININICHANGE": {
+        "prefix": "WM_WININICHANGE",
+        "body": "\\$WM_WININICHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_WTSSESSION_CHANGE": {
+        "prefix": "WM_WTSSESSION_CHANGE",
+        "body": "\\$WM_WTSSESSION_CHANGE",
+        "scope": "source.autoit"
+    },
+    "WM_XBUTTONDBLCLK": {
+        "prefix": "WM_XBUTTONDBLCLK",
+        "body": "\\$WM_XBUTTONDBLCLK",
+        "scope": "source.autoit"
+    },
+    "WM_XBUTTONDOWN": {
+        "prefix": "WM_XBUTTONDOWN",
+        "body": "\\$WM_XBUTTONDOWN",
+        "scope": "source.autoit"
+    },
+    "WM_XBUTTONUP": {
+        "prefix": "WM_XBUTTONUP",
+        "body": "\\$WM_XBUTTONUP",
+        "scope": "source.autoit"
+    },
+    "WS_BORDER": {
+        "prefix": "WS_BORDER",
+        "body": "\\$WS_BORDER",
+        "scope": "source.autoit"
+    },
+    "WS_POPUP": {
+        "prefix": "WS_POPUP",
+        "body": "\\$WS_POPUP",
+        "scope": "source.autoit"
+    },
+    "WS_CAPTION": {
+        "prefix": "WS_CAPTION",
+        "body": "\\$WS_CAPTION",
+        "scope": "source.autoit"
+    },
+    "WS_CLIPCHILDREN": {
+        "prefix": "WS_CLIPCHILDREN",
+        "body": "\\$WS_CLIPCHILDREN",
+        "scope": "source.autoit"
+    },
+    "WS_CLIPSIBLINGS": {
+        "prefix": "WS_CLIPSIBLINGS",
+        "body": "\\$WS_CLIPSIBLINGS",
+        "scope": "source.autoit"
+    },
+    "WS_DISABLED": {
+        "prefix": "WS_DISABLED",
+        "body": "\\$WS_DISABLED",
+        "scope": "source.autoit"
+    },
+    "WS_DLGFRAME": {
+        "prefix": "WS_DLGFRAME",
+        "body": "\\$WS_DLGFRAME",
+        "scope": "source.autoit"
+    },
+    "WS_HSCROLL": {
+        "prefix": "WS_HSCROLL",
+        "body": "\\$WS_HSCROLL",
+        "scope": "source.autoit"
+    },
+    "WS_MAXIMIZE": {
+        "prefix": "WS_MAXIMIZE",
+        "body": "\\$WS_MAXIMIZE",
+        "scope": "source.autoit"
+    },
+    "WS_MAXIMIZEBOX": {
+        "prefix": "WS_MAXIMIZEBOX",
+        "body": "\\$WS_MAXIMIZEBOX",
+        "scope": "source.autoit"
+    },
+    "WS_MINIMIZE": {
+        "prefix": "WS_MINIMIZE",
+        "body": "\\$WS_MINIMIZE",
+        "scope": "source.autoit"
+    },
+    "WS_MINIMIZEBOX": {
+        "prefix": "WS_MINIMIZEBOX",
+        "body": "\\$WS_MINIMIZEBOX",
+        "scope": "source.autoit"
+    },
+    "WS_OVERLAPPED": {
+        "prefix": "WS_OVERLAPPED",
+        "body": "\\$WS_OVERLAPPED",
+        "scope": "source.autoit"
+    },
+    "WS_OVERLAPPEDWINDOW": {
+        "prefix": "WS_OVERLAPPEDWINDOW",
+        "body": "\\$WS_OVERLAPPEDWINDOW",
+        "scope": "source.autoit"
+    },
+    "WS_POPUPWINDOW": {
+        "prefix": "WS_POPUPWINDOW",
+        "body": "\\$WS_POPUPWINDOW",
+        "scope": "source.autoit"
+    },
+    "WS_SIZEBOX": {
+        "prefix": "WS_SIZEBOX",
+        "body": "\\$WS_SIZEBOX",
+        "scope": "source.autoit"
+    },
+    "WS_SYSMENU": {
+        "prefix": "WS_SYSMENU",
+        "body": "\\$WS_SYSMENU",
+        "scope": "source.autoit"
+    },
+    "WS_THICKFRAME": {
+        "prefix": "WS_THICKFRAME",
+        "body": "\\$WS_THICKFRAME",
+        "scope": "source.autoit"
+    },
+    "WS_VSCROLL": {
+        "prefix": "WS_VSCROLL",
+        "body": "\\$WS_VSCROLL",
+        "scope": "source.autoit"
+    },
+    "WS_VISIBLE": {
+        "prefix": "WS_VISIBLE",
+        "body": "\\$WS_VISIBLE",
+        "scope": "source.autoit"
+    },
+    "WS_CHILD": {
+        "prefix": "WS_CHILD",
+        "body": "\\$WS_CHILD",
+        "scope": "source.autoit"
+    },
+    "WS_GROUP": {
+        "prefix": "WS_GROUP",
+        "body": "\\$WS_GROUP",
+        "scope": "source.autoit"
+    },
+    "WS_TABSTOP": {
+        "prefix": "WS_TABSTOP",
+        "body": "\\$WS_TABSTOP",
+        "scope": "source.autoit"
+    },
+    "WS_EX_ACCEPTFILES": {
+        "prefix": "WS_EX_ACCEPTFILES",
+        "body": "\\$WS_EX_ACCEPTFILES",
+        "scope": "source.autoit"
+    },
+    "WS_EX_APPWINDOW": {
+        "prefix": "WS_EX_APPWINDOW",
+        "body": "\\$WS_EX_APPWINDOW",
+        "scope": "source.autoit"
+    },
+    "WS_EX_COMPOSITED": {
+        "prefix": "WS_EX_COMPOSITED",
+        "body": "\\$WS_EX_COMPOSITED",
+        "scope": "source.autoit"
+    },
+    "WS_EX_CLIENTEDGE": {
+        "prefix": "WS_EX_CLIENTEDGE",
+        "body": "\\$WS_EX_CLIENTEDGE",
+        "scope": "source.autoit"
+    },
+    "WS_EX_CONTEXTHELP": {
+        "prefix": "WS_EX_CONTEXTHELP",
+        "body": "\\$WS_EX_CONTEXTHELP",
+        "scope": "source.autoit"
+    },
+    "WS_EX_DLGMODALFRAME": {
+        "prefix": "WS_EX_DLGMODALFRAME",
+        "body": "\\$WS_EX_DLGMODALFRAME",
+        "scope": "source.autoit"
+    },
+    "WS_EX_LAYOUTRTL": {
+        "prefix": "WS_EX_LAYOUTRTL",
+        "body": "\\$WS_EX_LAYOUTRTL",
+        "scope": "source.autoit"
+    },
+    "WS_EX_MDICHILD": {
+        "prefix": "WS_EX_MDICHILD",
+        "body": "\\$WS_EX_MDICHILD",
+        "scope": "source.autoit"
+    },
+    "WS_EX_OVERLAPPEDWINDOW": {
+        "prefix": "WS_EX_OVERLAPPEDWINDOW",
+        "body": "\\$WS_EX_OVERLAPPEDWINDOW",
+        "scope": "source.autoit"
+    },
+    "WS_EX_STATICEDGE": {
+        "prefix": "WS_EX_STATICEDGE",
+        "body": "\\$WS_EX_STATICEDGE",
+        "scope": "source.autoit"
+    },
+    "WS_EX_TOPMOST": {
+        "prefix": "WS_EX_TOPMOST",
+        "body": "\\$WS_EX_TOPMOST",
+        "scope": "source.autoit"
+    },
+    "WS_EX_TRANSPARENT": {
+        "prefix": "WS_EX_TRANSPARENT",
+        "body": "\\$WS_EX_TRANSPARENT",
+        "scope": "source.autoit"
+    },
+    "WS_EX_TOOLWINDOW": {
+        "prefix": "WS_EX_TOOLWINDOW",
+        "body": "\\$WS_EX_TOOLWINDOW",
+        "scope": "source.autoit"
+    },
+    "WS_EX_WINDOWEDGE": {
+        "prefix": "WS_EX_WINDOWEDGE",
+        "body": "\\$WS_EX_WINDOWEDGE",
+        "scope": "source.autoit"
+    },
+    "WS_EX_LAYERED": {
+        "prefix": "WS_EX_LAYERED",
+        "body": "\\$WS_EX_LAYERED",
+        "scope": "source.autoit"
+    },
+    "ce": {
+        "prefix": "ce",
+        "body": "ce ",
+        "scope": "source.autoit"
+    },
+    "comments-end": {
+        "prefix": "comments-end",
+        "body": "#comments-end\n",
+        "scope": "source.autoit"
+    },
+    "comments-start": {
+        "prefix": "#comments-start",
+        "body": [
+            "#comments-start",
+            "\t$1",
+            "#comments-end"
+        ],
+        "scope": "source.autoit",
+        "description": "Specify that an entire section of script should be commented out."
+    },
+    "#cs": {
+        "prefix": "#cs",
+        "body": [
+            "#cs ",
+            "\t$1",
+            "#ce"
+        ],
+        "scope": "source.autoit",
+        "description": "Specify that an entire section of script should be commented out."
+    },
+    "#NoTrayIcon": {
+        "prefix": "#NoTrayIcon",
+        "body": "#NoTrayIcon",
+        "scope": "source.autoit",
+        "description": "Indicates that the AutoIt tray icon will not be shown when the script starts."
+    },
+    "include": {
+        "prefix": "include",
+        "body": "#include <${file}>",
+        "scope": "source.autoit"
+    },
+    "include <ColorConstants.au3>": {
+        "prefix": "include <ColorConstants.au3>",
+        "body": "#include <ColorConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <Constants.au3>": {
+        "prefix": "include <Constants.au3>",
+        "body": "#include <Constants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <DirConstants.au3>": {
+        "prefix": "include <DirConstants.au3>",
+        "body": "#include <DirConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <FileConstants.au3>": {
+        "prefix": "include <FileConstants.au3>",
+        "body": "#include <FileConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <FontConstants.au3>": {
+        "prefix": "include <FontConstants.au3>",
+        "body": "#include <FontConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <GUIConstants.au3>": {
+        "prefix": "include <GUIConstants.au3>",
+        "body": "#include <GUIConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <GUIConstantsEx.au3>": {
+        "prefix": "include <GUIConstantsEx.au3>",
+        "body": "#include <GUIConstantsEx.au3>",
+        "scope": "source.autoit"
+    },
+    "include <GuiComboBox.au3>": {
+        "prefix": "include <GuiComboBox.au3>",
+        "body": "#include <GuiComboBox.au3>",
+        "scope": "source.autoit"
+    },
+    "include <Array.au3>": {
+        "prefix": "include <Array.au3>",
+        "body": "#include <Array.au3>",
+        "scope": "source.autoit"
+    },
+    "include <WindowsConstants.au3>": {
+        "prefix": "include <WindowsConstants.au3>",
+        "body": "#include <WindowsConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include <MsgBoxConstants.au3>": {
+        "prefix": "include <MsgBoxConstants.au3>",
+        "body": "#include <MsgBoxConstants.au3>",
+        "scope": "source.autoit"
+    },
+    "include-once": {
+        "prefix": "include-once",
+        "body": "#include-once ",
+        "scope": "source.autoit"
+    },
+    "NoTrayIcon": {
+        "prefix": "NoTrayIcon",
+        "body": "#NoTrayIcon ",
+        "scope": "source.autoit"
+    },
+    "OnAutoItStartRegister": {
+        "prefix": "OnAutoItStartRegister",
+        "body": "#OnAutoItStartRegister ",
+        "scope": "source.autoit"
+    },
+    "RequireAdmin": {
+        "prefix": "RequireAdmin",
+        "body": "#RequireAdmin ",
+        "scope": "source.autoit"
+    },
+    "EndRegion": {
+        "prefix": "EndRegion",
+        "body": "#EndRegion ",
+        "scope": "source.autoit"
+    },
+    "forcedef": {
+        "prefix": "forcedef",
+        "body": "#forcedef ",
+        "scope": "source.autoit"
+    },
+    "forceref": {
+        "prefix": "forceref",
+        "body": "#forceref ",
+        "scope": "source.autoit"
+    },
+    "ignorefunc": {
+        "prefix": "ignorefunc",
+        "body": "#ignorefunc ",
+        "scope": "source.autoit"
+    },
+    "pragma": {
+        "prefix": "pragma",
+        "body": "#pragma ",
+        "scope": "source.autoit"
+    },
+    "Region": {
+        "prefix": "Region",
+        "body": "#Region ",
+        "scope": "source.autoit"
+    },
+    "Region...EndRegion": {
+        "prefix": "Region...EndRegion",
+        "body": [
+            "#Region",
+            "\t${1}",
+            "#EndRegion"
+        ],
+        "scope": "source.autoit"
+    },
+    "AdlibUnRegister": {
+        "prefix": "AdlibUnRegister",
+        "body": "AdlibUnRegister(${[function]})",
+        "description": "Unregisters an adlib function.",
+        "scope": "source.autoit"
+    },
+    "Asc": {
+        "prefix": "Asc",
+        "body": "Asc(\"${char}\")",
+        "description": "Returns the ASCII code of a character.",
+        "scope": "source.autoit"
+    },
+    "AscW": {
+        "prefix": "AscW",
+        "body": "AscW(\"${char}\")",
+        "description": "Returns the unicode code of a character.",
+        "scope": "source.autoit"
+    },
+    "ATan": {
+        "prefix": "ATan",
+        "body": "ATan(${ expression })",
+        "description": "Calculates the arctangent of a number.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - CaretCoordMode": {
+        "prefix": "AutoItSetOption-CaretCoordMode",
+        "body": "AutoItSetOption(\"CaretCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the caret functions, either absolute coords or coords relative to the current active window:\n0 = relative coords to the active window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the active window",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - ExpandEnvStrings": {
+        "prefix": "AutoItSetOption-ExpandEnvStrings",
+        "body": "AutoItSetOption(\"ExpandEnvStrings\", ${0|1})",
+        "description": "Changes how literal strings and % symbols are interpreted. By default strings are treated literally, this option allows you to use %environment% variables inside strings, e.g., \"The temp directory is: %temp%\".\n0 = (default) do not expand environment variables\n1 = expand environment variables",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - ExpandVarStrings": {
+        "prefix": "AutoItSetOption-ExpandVarStrings",
+        "body": "AutoItSetOption(\"ExpandVarStrings\", ${0|1})",
+        "description": "Changes how literal strings and variable/macro ($ and @) symbols are interpreted. By default strings are treated literally, this option allows you to use variables and macros inside strings, e.g., \"The value of var1 is $var1$\".\n0 = (default) do not expand variables\n1 = expand variables (when in this mode and you want to use a literal $ or @ then double it up: \"This is a single dollar $$ sign\".",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUICloseOnESC": {
+        "prefix": "AutoItSetOption-GUICloseOnESC",
+        "body": "AutoItSetOption(\"GUICloseOnESC\", ${0|1})",
+        "description": "When ESC is pressed on a GUI the $GUI_EVENT_CLOSE message is sent. This option toggles this behavior on and off.\n0 = Don't send the $GUI_EVENT_CLOSE message when ESC is pressed.\n1 = (default) Send() the $GUI_EVENT_CLOSE message when ESC is pressed.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUICoordMode": {
+        "prefix": "AutoItSetOption-GUICoordMode",
+        "body": "AutoItSetOption(\"GUICoordMode\", ${0|1|2})",
+        "description": "Alters the position of a control defined by GUICtrlSetPos().\n0 = relative position to the start of the last control (upper left corner).\n1 = (default) absolute coordinates still relative to the dialog box.\n2 = cell positioning relative to current cell. A -1 for left or top parameter don't increment the start.\nSo next line is -1, offset; next cell is offset,-1; current cell is -1,-1.\nObviously \"offset\" cannot be -1 which reserved to indicate the no increment. But if you can use a multiple of the width you choose to skip or go back.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUIDataSeparatorChar": {
+        "prefix": "AutoItSetOption-GUIDataSeparatorChar",
+        "body": "AutoItSetOption(\"GUIDataSeparatorChar\", \"${char}\")",
+        "description": "Define the character which delimits subitems in GUICtrlSetData().\nThe default character is '|'.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUIOnEventMode": {
+        "prefix": "AutoItSetOption-GUIOnEventMode",
+        "body": "AutoItSetOption(\"GUIOnEventMode\", ${0=disable/1=enable})",
+        "description": "Enable/disable OnEvent functions notifications.\n0 = (default) disable.\n1 = enable.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUIResizeMode": {
+        "prefix": "AutoItSetOption-GUIResizeMode",
+        "body": "AutoItSetOption(\"GUIResizeMode\", ${param})",
+        "description": "Change default resizing for a control.\n0 = (default) keep default control resizing.\n<1024 = any type of resizing see GUICtrlSetResizing().",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - GUIEventOptions": {
+        "prefix": "AutoItSetOption-GUIEventOptions",
+        "body": "AutoItSetOption(\"GUIEventOptions\", ${param})",
+        "description": "Change special event behavior or GUI function return values.\n0 = (default) Windows behavior on click on Minimize,Restore, Maximize, Resize.\n1 = suppress windows behavior on minimize, restore or maximize click button or window resize. Just sends the notification.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - MouseClickDelay": {
+        "prefix": "AutoItSetOption-MouseClickDelay",
+        "body": "AutoItSetOption(\"MouseClickDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause in between mouse clicks.\nTime in milliseconds to pause (default=10).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - MouseClickDownDelay": {
+        "prefix": "AutoItSetOption-MouseClickDownDelay",
+        "body": "AutoItSetOption(\"MouseClickDownDelay\", ${milliseconds})",
+        "description": "Alters the length a click is held down before release.\nTime in milliseconds to pause (default=10).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - MouseClickDragDelay": {
+        "prefix": "AutoItSetOption-MouseClickDragDelay",
+        "body": "AutoItSetOption(\"MouseClickDragDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause at the start and end of a mouse drag operation.\nTime in milliseconds to pause (default=250).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - MouseCoordMode": {
+        "prefix": "AutoItSetOption-MouseCoordMode",
+        "body": "AutoItSetOption(\"MouseCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the mouse functions, either absolute coords or coords relative to the current active window:\n0 = relative coords to the active window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the active window",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - MustDeclareVars": {
+        "prefix": "AutoItSetOption-MustDeclareVars",
+        "body": "AutoItSetOption(\"MustDeclareVars\", ${0|1})",
+        "description": "If this option is used then all variables must be pre-declared with Local, Global or in some cases Dim before they can be used - removes the chance for misspelled variables causing bugs.\n0 = (default) Variables don't need to be pre-declared\n1 = Variables must be pre-declared. See Dim / Global / Local / Const for details on declaring variables.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - PixelCoordMode": {
+        "prefix": "AutoItSetOption-PixelCoordMode",
+        "body": "AutoItSetOption(\"PixelCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the pixel functions, either absolute coords or coords relative to the window defined by hwnd (default active window):\n0 = relative coords to the defined window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the defined window",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - SendAttachMode": {
+        "prefix": "AutoItSetOption-SendAttachMode",
+        "body": "AutoItSetOption(\"SendAttachMode\", ${0|1})",
+        "description": "Specifies if AutoIt attaches input threads when using Send() function. When not attaching (default mode=0) detecting the state of capslock/scrolllock and numlock can be unreliable under NT4. However, when you specify attach mode=1 the Send(\"{... down/up}\") syntax will not work and there may be problems with sending keys to \"hung\" windows. ControlSend() ALWAYS attaches and is not affected by this mode.\n0 = (default) don't attach\n1 = attach",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - SendCapslockMode": {
+        "prefix": "AutoItSetOption-SendCapslockMode",
+        "body": "AutoItSetOption(\"SendCapslockMode\", ${0|1})",
+        "description": "Specifies if AutoIt should store the state of capslock before a Send() function and restore it afterwards.\n0 = don't store/restore\n1 = (default) store and restore",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - SendKeyDelay": {
+        "prefix": "AutoItSetOption-SendKeyDelay",
+        "body": "AutoItSetOption(\"SendKeyDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause in between sent keystrokes. A value of 0 removes the delay completely.\nTime in milliseconds to pause (default=5).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - SendKeyDownDelay": {
+        "prefix": "AutoItSetOption-SendKeyDownDelay",
+        "body": "AutoItSetOption(\"SendKeyDownDelay\", ${milliseconds})",
+        "description": "Alters the length of time a key is held down before being released during a keystroke. For applications that take a while to register keypresses you may need to raise this value from the default. A value of 0 removes the delay completely.\nTime in milliseconds to pause (default=5).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TCPTimeout": {
+        "prefix": "AutoItSetOption-TCPTimeout",
+        "body": "AutoItSetOption(\"TCPTimeout\", ${milliseconds})",
+        "description": "Defines the time before TCP functions stop if no communication.\nTime in milliseconds before timeout (default=100).",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TrayAutoPause": {
+        "prefix": "AutoItSetOption-TrayAutoPause",
+        "body": "AutoItSetOption(\"TrayAutoPause\", ${0|1})",
+        "description": "Script pauses when click on tray icon.\n0 = no pause\n1 = (default) pause. If there is no DefaultMenu no pause will occurs.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TrayIconDebug": {
+        "prefix": "AutoItSetOption-TrayIconDebug",
+        "body": "AutoItSetOption(\"TrayIconDebug\", ${0|1})",
+        "description": "If enabled shows the current script line in the tray icon tip to help debugging.\n0 = (default) no debug information\n1 = show debug",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TrayIconHide": {
+        "prefix": "AutoItSetOption-TrayIconHide",
+        "body": "AutoItSetOption(\"TrayIconHide\", ${0|1})",
+        "description": "Hides the AutoIt tray icon. Note: The icon will still initially appear for ~750 milliseconds.\n0 = (default) show icon\n1 = hide icon",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TrayMenuMode": {
+        "prefix": "AutoItSetOption-TrayMenuMode",
+        "body": "AutoItSetOption(\"TrayMenuMode\", ${param})",
+        "description": "Extend the behaviour of the script tray icon/menu. This can be done with a combination (adding) of the following values.\n0 = (default) default menu items (Script Paused/Exit) are appended to the usercreated menu; items will automatically be checked/unchecked when clicked; double clicking the tray icon returns the controlID of the $TRAY_DEFAULT item.\n1 = no default menu\n2 = items will not automatically check/uncheck when clicked\n4 = do not return the $TRAY_DEFAULT item controlID when the tray icon is double clicked\n8 = turn off auto check of radio item groups",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - TrayOnEventMode": {
+        "prefix": "AutoItSetOption-TrayOnEventMode",
+        "body": "AutoItSetOption(\"TrayOnEventMode\", ${0|1})",
+        "description": "Enable/disable OnEvent functions notifications for the tray.\n0 = (default) disable\n1 = enable",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - WinDetectHiddenText": {
+        "prefix": "AutoItSetOption-WinDetectHiddenText",
+        "body": "AutoItSetOption(\"WinDetectHiddenText\", ${0|1})",
+        "description": "Specifies if hidden window text can be \"seen\" by the window matching functions.\n0 = (default) Do not detect hidden text\n1 = Detect hidden text",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - WinSearchChildren": {
+        "prefix": "AutoItSetOption-WinSearchChildren",
+        "body": "AutoItSetOption(\"WinSearchChildren\", ${0|1})",
+        "description": "Allows the window search routines to search child windows as well as top-level windows.\n0 = (default) Only search top-level windows\n1 = Search top-level and child windows",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - WinTextMatchMode": {
+        "prefix": "AutoItSetOption-WinTextMatchMode",
+        "body": "AutoItSetOption(\"WinTextMatchMode\", ${1|2})",
+        "description": "Alters the method that is used to match window text during search operations.\n1 = (default) Complete / Slow mode\n2 = Quick mode\nIn quick mode AutoIt can usually only \"see\" dialog text, button text and the captions of some controls. In the default mode much more text can be seen (for instance the contents of the Notepad window).\nIf you are having performance problems when performing many window searches then changing to the \"quick\" mode may help.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - WinTitleMatchMode": {
+        "prefix": "AutoItSetOption-WinTitleMatchMode",
+        "body": "AutoItSetOption(\"WinTitleMatchMode\", ${-1|-2|-3|-4|1|2|3|4})",
+        "description": "Alters the method that is used to match window titles during search operations.\n1 = (default) Match the title from the start\n2 = Match any substring in the title\n3 = Exact title match\n4 = Advanced mode (retained for backwards compatibility only\n-1 to -4 = Case insensitive match according to the other type of match.",
+        "scope": "source.autoit"
+    },
+    "AutoItSetOption - WinWaitDelay": {
+        "prefix": "AutoItSetOption-WinWaitDelay",
+        "body": "AutoItSetOption(\"WinWaitDelay\", ${milliseconds})",
+        "description": "Alters how long a script should briefly pause after a successful window-related operation.\nTime in milliseconds to pause (default=250).",
+        "scope": "source.autoit"
+    },
+    "BS_3STATE": {
+        "prefix": "BS_3STATE",
+        "body": "\\$BS_3STATE",
+        "scope": "source.autoit"
+    },
+    "BS_AUTO3STATE": {
+        "prefix": "BS_AUTO3STATE",
+        "body": "\\$BS_AUTO3STATE",
+        "scope": "source.autoit"
+    },
+    "BS_AUTOCHECKBOX": {
+        "prefix": "BS_AUTOCHECKBOX",
+        "body": "\\$BS_AUTOCHECKBOX",
+        "scope": "source.autoit"
+    },
+    "BS_CHECKBOX": {
+        "prefix": "BS_CHECKBOX",
+        "body": "\\$BS_CHECKBOX",
+        "scope": "source.autoit"
+    },
+    "BS_LEFT": {
+        "prefix": "BS_LEFT",
+        "body": "\\$BS_LEFT",
+        "scope": "source.autoit"
+    },
+    "BS_PUSHLIKE": {
+        "prefix": "BS_PUSHLIKE",
+        "body": "\\$BS_PUSHLIKE",
+        "scope": "source.autoit"
+    },
+    "BS_RIGHT": {
+        "prefix": "BS_RIGHT",
+        "body": "\\$BS_RIGHT",
+        "scope": "source.autoit"
+    },
+    "BS_RIGHTBUTTON": {
+        "prefix": "BS_RIGHTBUTTON",
+        "body": "\\$BS_RIGHTBUTTON",
+        "scope": "source.autoit"
+    },
+    "BS_GROUPBOX": {
+        "prefix": "BS_GROUPBOX",
+        "body": "\\$BS_GROUPBOX",
+        "scope": "source.autoit"
+    },
+    "BS_AUTORADIOBUTTON": {
+        "prefix": "BS_AUTORADIOBUTTON",
+        "body": "\\$BS_AUTORADIOBUTTON",
+        "scope": "source.autoit"
+    },
+    "BS_BOTTOM": {
+        "prefix": "BS_BOTTOM",
+        "body": "\\$BS_BOTTOM",
+        "scope": "source.autoit"
+    },
+    "BS_CENTER": {
+        "prefix": "BS_CENTER",
+        "body": "\\$BS_CENTER",
+        "scope": "source.autoit"
+    },
+    "BS_DEFPUSHBUTTON": {
+        "prefix": "BS_DEFPUSHBUTTON",
+        "body": "\\$BS_DEFPUSHBUTTON",
+        "scope": "source.autoit"
+    },
+    "BS_MULTILINE": {
+        "prefix": "BS_MULTILINE",
+        "body": "\\$BS_MULTILINE",
+        "scope": "source.autoit"
+    },
+    "BS_TOP": {
+        "prefix": "BS_TOP",
+        "body": "\\$BS_TOP",
+        "scope": "source.autoit"
+    },
+    "BS_VCENTER": {
+        "prefix": "BS_VCENTER",
+        "body": "\\$BS_VCENTER",
+        "scope": "source.autoit"
+    },
+    "BS_ICON": {
+        "prefix": "BS_ICON",
+        "body": "\\$BS_ICON",
+        "scope": "source.autoit"
+    },
+    "BS_BITMAP": {
+        "prefix": "BS_BITMAP",
+        "body": "\\$BS_BITMAP",
+        "scope": "source.autoit"
+    },
+    "BS_FLAT": {
+        "prefix": "BS_FLAT",
+        "body": "\\$BS_FLAT",
+        "scope": "source.autoit"
+    },
+    "BS_NOTIFY": {
+        "prefix": "BS_NOTIFY",
+        "body": "\\$BS_NOTIFY",
+        "scope": "source.autoit"
+    },
+    "CBS_AUTOHSCROLL": {
+        "prefix": "CBS_AUTOHSCROLL",
+        "body": "\\$CBS_AUTOHSCROLL",
+        "scope": "source.autoit"
+    },
+    "CBS_DISABLENOSCROLL": {
+        "prefix": "CBS_DISABLENOSCROLL",
+        "body": "\\$CBS_DISABLENOSCROLL",
+        "scope": "source.autoit"
+    },
+    "CBS_DROPDOWN": {
+        "prefix": "CBS_DROPDOWN",
+        "body": "\\$CBS_DROPDOWN",
+        "scope": "source.autoit"
+    },
+    "CBS_DROPDOWNLIST": {
+        "prefix": "CBS_DROPDOWNLIST",
+        "body": "\\$CBS_DROPDOWNLIST",
+        "scope": "source.autoit"
+    },
+    "CBS_LOWERCASE": {
+        "prefix": "CBS_LOWERCASE",
+        "body": "\\$CBS_LOWERCASE",
+        "scope": "source.autoit"
+    },
+    "CBS_NOINTEGRALHEIGHT": {
+        "prefix": "CBS_NOINTEGRALHEIGHT",
+        "body": "\\$CBS_NOINTEGRALHEIGHT",
+        "scope": "source.autoit"
+    },
+    "CBS_OEMCONVERT": {
+        "prefix": "CBS_OEMCONVERT",
+        "body": "\\$CBS_OEMCONVERT",
+        "scope": "source.autoit"
+    },
+    "CBS_SIMPLE": {
+        "prefix": "CBS_SIMPLE",
+        "body": "\\$CBS_SIMPLE",
+        "scope": "source.autoit"
+    },
+    "CBS_SORT": {
+        "prefix": "CBS_SORT",
+        "body": "\\$CBS_SORT",
+        "scope": "source.autoit"
+    },
+    "CBS_UPPERCASE": {
+        "prefix": "CBS_UPPERCASE",
+        "body": "\\$CBS_UPPERCASE",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-IsVisible": {
+        "prefix": "ControlCommand-IsVisible",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"IsVisible\", \"\")",
+        "description": "Returns 1 if Control is visible, 0 otherwise",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-IsEnabled": {
+        "prefix": "ControlCommand-IsEnabled",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"IsEnabled\", \"\")",
+        "description": "Returns 1 if Control is enabled, 0 otherwise",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-ShowDropDown": {
+        "prefix": "ControlCommand-ShowDropDown",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"ShowDropDown\", \"\")",
+        "description": "Displays the ComboBox dropdown",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-HideDropDown": {
+        "prefix": "ControlCommand-HideDropDown",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"HideDropDown\", \"\")",
+        "description": "Hides the ComboBox dropdown",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-AddString": {
+        "prefix": "ControlCommand-AddString",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"AddString\",  ${'string'})",
+        "description": "Adds a string to the end in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-DelString": {
+        "prefix": "ControlCommand-DelString",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"DelString\", ${occurrence})",
+        "description": "Deletes a string according to occurrence in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-FindString": {
+        "prefix": "ControlCommand-FindString",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"FindString\",  ${'string'})",
+        "description": "Returns occurrence ref of the exact string in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-SetCurrentSelection": {
+        "prefix": "ControlCommand-SetCurrentSelection",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"SetCurrentSelection\", ${occurrence})",
+        "description": "Sets selection to occurrence ref in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-SelectString": {
+        "prefix": "ControlCommand-SelectString",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"SelectString\", ${'string'})",
+        "description": "Sets selection according to string in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-IsChecked": {
+        "prefix": "ControlCommand-IsChecked",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"IsChecked\", \"\")",
+        "description": "Returns 1 if Button is checked, 0 otherwise",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-Check": {
+        "prefix": "ControlCommand-Check",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"Check\", \"\")",
+        "description": "Checks radio or check Button",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-UnCheck": {
+        "prefix": "ControlCommand-UnCheck",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"UnCheck\", \"\")",
+        "description": "Unchecks radio or check Button",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetCurrentLine": {
+        "prefix": "ControlCommand-GetCurrentLine",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetCurrentLine\" , \"\")",
+        "description": "Returns the line # where the caret is in an Edit",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetCurrentCol": {
+        "prefix": "ControlCommand-GetCurrentCol",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetCurrentCol\", \"\")",
+        "description": "Returns the column # where the caret is in an Edit",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetCurrentSelection": {
+        "prefix": "ControlCommand-GetCurrentSelection",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetCurrentSelection\", \"\")",
+        "description": "Returns name of the currently selected item in a ListBox or ComboBox",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetLineCount": {
+        "prefix": "ControlCommand-GetLineCount",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetLineCount\", \"\")",
+        "description": "Returns # of lines in an Edit",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetLine": {
+        "prefix": "ControlCommand-GetLine",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetLine\", ${line#})",
+        "description": "Returns text at line # passed of an Edit",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-GetSelected": {
+        "prefix": "ControlCommand-GetSelected",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"GetSelected\", \"\")",
+        "description": "Returns selected text of an Edit",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-EditPaste": {
+        "prefix": "ControlCommand-EditPaste",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"EditPaste\", ${'string'})",
+        "description": "Pastes the 'string' at the Edit's caret position",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-CurrentTab": {
+        "prefix": "ControlCommand-CurrentTab",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"CurrentTab\", \"\")",
+        "description": "Returns the current Tab shown of a SysTabControl32",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-TabRight": {
+        "prefix": "ControlCommand-TabRight",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"TabRight\", \"\")",
+        "description": "Moves to the next tab to the right of a SysTabControl32",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-TabLeft": {
+        "prefix": "ControlCommand-TabLeft",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"TabLeft\", \"\")",
+        "description": "Moves to the next tab to the left of a SysTabControl32",
+        "scope": "source.autoit"
+    },
+    "ControlCommand-SendCommandID": {
+        "prefix": "ControlCommand-SendCommandID",
+        "body": "ControlCommand(${title}, ${text}, ${classnameNN}, \"SendCommandID\", ${Command ID})",
+        "description": "Simulates the WM_COMMAND message. Usually used for ToolbarWindow32 controls - use the ToolBar tab of Au3Info to get the Command ID.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - DeSelect": {
+        "prefix": "ControlListView-DeSelect",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"DeSelect\", ${From [}${, ${To]}})",
+        "description": "Deselects one or more items.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - FindItem": {
+        "prefix": "ControlListView-FindItem",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"FindItem\" , ${\"string to find\"}${, ${[SubItem]}})",
+        "description": "Returns the item index of the string. Returns -1 if the string is not found.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - GetItemCount": {
+        "prefix": "ControlListView-GetItemCount",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"GetItemCount\")",
+        "description": "Returns the number of list items.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - GetSelected": {
+        "prefix": "ControlListView-GetSelected",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"GetSelected\"${, ${0|1}})",
+        "description": "Returns a string containing the item index of selected items. If option=0 (default) only the first selected item is returned. If option=1 then all the selected items are returned delimited by |, e.g: \"0|3|4|10\". If no items are selected a blank  string is returned.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - GetSelectedCount": {
+        "prefix": "ControlListView-GetSelectedCount",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"GetSelectedCount\")",
+        "description": "Returns the number of items that are selected.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - GetSubItemCount": {
+        "prefix": "ControlListView-GetSubItemCount",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"GetSubItemCount\")",
+        "description": "Returns the number of subitems.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - GetText": {
+        "prefix": "ControlListView-GetText",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"GetText\", ${Item}, ${SubItem})",
+        "description": "Returns the text of a given item/subitem.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - IsSelected": {
+        "prefix": "ControlListView-IsSelected",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"IsSelected\", ${Item})",
+        "description": "Returns 1 if the item is selected, otherwise returns 0.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - Select": {
+        "prefix": "ControlListView-Select",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"Select\", ${From [}${, ${ To] }})",
+        "description": "Selects one or more items.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - SelectAll": {
+        "prefix": "ControlListView-SelectAll",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"SelectAll\")",
+        "description": "Selects all items.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - SelectClear": {
+        "prefix": "ControlListView-SelectClear",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"SelectClear\")",
+        "description": "Clears the selection of all items.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - SelectInvert": {
+        "prefix": "ControlListView-SelectInvert",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"SelectInvert\")",
+        "description": "Inverts the current selection.",
+        "scope": "source.autoit"
+    },
+    "ControlListView - ViewChange": {
+        "prefix": "ControlListView-ViewChange",
+        "body": "ControlListView(${\"title\"}, ${\"text\"}, ${controlID}, \"ViewChange\", ${\"list|details|smallicons|largeicons\"})",
+        "description": "Changes the current view. Valid views are \"list\", \"details\", \"smallicons\", \"largeicons\".",
+        "scope": "source.autoit"
+    },
+    "DS_MODALFRAME": {
+        "prefix": "DS_MODALFRAME",
+        "body": "\\$DS_MODALFRAME",
+        "scope": "source.autoit"
+    },
+    "DS_SETFOREGROUND": {
+        "prefix": "DS_SETFOREGROUND",
+        "body": "\\$DS_SETFOREGROUND",
+        "scope": "source.autoit"
+    },
+    "DS_CONTEXTHELP": {
+        "prefix": "DS_CONTEXTHELP",
+        "body": "\\$DS_CONTEXTHELP",
+        "scope": "source.autoit"
+    },
+    "DTS_UPDOWN": {
+        "prefix": "DTS_UPDOWN",
+        "body": "\\$DTS_UPDOWN",
+        "scope": "source.autoit"
+    },
+    "DTS_SHOWNONE": {
+        "prefix": "DTS_SHOWNONE",
+        "body": "\\$DTS_SHOWNONE",
+        "scope": "source.autoit"
+    },
+    "DTS_LONGDATEFORMAT": {
+        "prefix": "DTS_LONGDATEFORMAT",
+        "body": "\\$DTS_LONGDATEFORMAT",
+        "scope": "source.autoit"
+    },
+    "DTS_TIMEFORMAT": {
+        "prefix": "DTS_TIMEFORMAT",
+        "body": "\\$DTS_TIMEFORMAT",
+        "scope": "source.autoit"
+    },
+    "DTS_RIGHTALIGN": {
+        "prefix": "DTS_RIGHTALIGN",
+        "body": "\\$DTS_RIGHTALIGN",
+        "scope": "source.autoit"
+    },
+    "DTS_SHORTDATEFORMAT": {
+        "prefix": "DTS_SHORTDATEFORMAT",
+        "body": "\\$DTS_SHORTDATEFORMAT",
+        "scope": "source.autoit"
+    },
+    "IDOK": {
+        "prefix": "IDOK",
+        "body": "\\$IDOK",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(1)"
+    },
+    "IDCANCEL": {
+        "prefix": "IDCANCEL",
+        "body": "\\$IDCANCEL",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(2)"
+    },
+    "IDABORT": {
+        "prefix": "IDABORT",
+        "body": "\\$IDABORT ",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(3)"
+    },
+    "IDRETRY": {
+        "prefix": "IDRETRY",
+        "body": "\\$IDRETRY",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(4)"
+    },
+    "IDIGNORE": {
+        "prefix": "IDIGNORE",
+        "body": "\\$IDIGNORE",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(5)"
+    },
+    "IDYES": {
+        "prefix": "IDYES",
+        "body": "\\$IDYES",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(6)"
+    },
+    "IDNO": {
+        "prefix": "IDNO",
+        "body": "\\$IDNO",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(7)"
+    },
+    "IDTRYAGAIN": {
+        "prefix": "IDTRYAGAIN",
+        "body": "\\$IDTRYAGAIN",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(10)"
+    },
+    "IDCONTINUE": {
+        "prefix": "IDCONTINUE",
+        "body": "\\$IDCONTINUE",
+        "scope": "source.autoit",
+        "description": "ID Button Pressed in MsgBox.(11)"
+    },
+    "MB_OK": {
+        "prefix": "MB_OK",
+        "body": "\\$MB_OK",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nOK button"
+    },
+    "MB_OKCANCEL": {
+        "prefix": "MB_OKCANCEL",
+        "body": "\\$MB_OKCANCEL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nOK and Cancel"
+    },
+    "MB_ABORTRETRYIGNORE": {
+        "prefix": "MB_ABORTRETRYIGNORE",
+        "body": "\\$MB_ABORTRETRYIGNORE",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nAbort, Retry, and Ignore"
+    },
+    "MB_YESNOCANCEL": {
+        "prefix": "MB_YESNOCANCEL",
+        "body": "\\$MB_YESNOCANCEL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nYes, No, and Cancel"
+    },
+    "MB_YESNO": {
+        "prefix": "MB_YESNO",
+        "body": "\\$MB_YESNO",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nYes and No"
+    },
+    "MB_RETRYCANCEL": {
+        "prefix": "MB_RETRYCANCEL",
+        "body": "\\$MB_RETRYCANCEL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nRetry and Cancel"
+    },
+    "MB_CANCELTRYCONTINUE": {
+        "prefix": "MB_CANCELTRYCONTINUE",
+        "body": "\\$MB_CANCELTRYCONTINUE",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nCancel, Try Again, Continue"
+    },
+    "MB_HELP": {
+        "prefix": "MB_HELP",
+        "body": "\\$MB_HELP",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nAdds a Help button to the message box. When the user clicks the Help button or presses F1, the system sends a WM_HELP message to the owner."
+    },
+    "MB_ICONERROR": {
+        "prefix": "MB_ICONERROR",
+        "body": "\\$MB_ICONERROR",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nStop-sign icon"
+    },
+    "MB_ICONQUESTION": {
+        "prefix": "MB_ICONQUESTION",
+        "body": "\\$MB_ICONQUESTION",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nQuestion-mark icon"
+    },
+    "MB_ICONWARNING": {
+        "prefix": "MB_ICONWARNING",
+        "body": "\\$MB_ICONWARNING",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nExclamation-point icon"
+    },
+    "MB_ICONINFORMATION": {
+        "prefix": "MB_ICONINFORMATION",
+        "body": "\\$MB_ICONINFORMATION",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nInformation-sign icon consisting of an 'i' in a circle"
+    },
+    "MB_DEFBUTTON1": {
+        "prefix": "MB_DEFBUTTON1",
+        "body": "\\$MB_DEFBUTTON1",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nFirst button is default button"
+    },
+    "MB_DEFBUTTON2": {
+        "prefix": "MB_DEFBUTTON2",
+        "body": "\\$MB_DEFBUTTON2",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nSecond button is default button"
+    },
+    "MB_DEFBUTTON3": {
+        "prefix": "MB_DEFBUTTON3",
+        "body": "\\$MB_DEFBUTTON3",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nThird button is default button"
+    },
+    "MB_DEFBUTTON4": {
+        "prefix": "MB_DEFBUTTON4",
+        "body": "\\$MB_DEFBUTTON4",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nFourth button is default button"
+    },
+    "MB_APPLMODAL": {
+        "prefix": "MB_APPLMODAL",
+        "body": "\\$MB_APPLMODAL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nApplication 0x0"
+    },
+    "MB_SYSTEMMODAL": {
+        "prefix": "MB_SYSTEMMODAL",
+        "body": "\\$MB_SYSTEMMODAL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nSystem modal (dialog has an icon)"
+    },
+    "MB_TASKMODAL": {
+        "prefix": "MB_TASKMODAL",
+        "body": "\\$MB_TASKMODAL",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nTask modal"
+    },
+    "MB_DEFAULT_DESKTOP_ONLY": {
+        "prefix": "MB_DEFAULT_DESKTOP_ONLY",
+        "body": "\\$MB_DEFAULT_DESKTOP_ONLY",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nMsgBox() shows on the desktop of the interactive window station."
+    },
+    "MB_RIGHT": {
+        "prefix": "MB_RIGHT",
+        "body": "\\$MB_RIGHT",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\ntitle and text are right-justified"
+    },
+    "MB_RTLREADING": {
+        "prefix": "MB_RTLREADING",
+        "body": "\\$MB_RTLREADING",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nDisplays message and caption text using right-to-left reading order on Hebrew and Arabic systems."
+    },
+    "MB_SETFOREGROUND": {
+        "prefix": "MB_SETFOREGROUND",
+        "body": "\\$MB_SETFOREGROUND",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nThe message box becomes the foreground window."
+    },
+    "MB_TOPMOST": {
+        "prefix": "MB_TOPMOST",
+        "body": "\\$MB_TOPMOST",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nMsgBox() has top-most attribute set"
+    },
+    "MB_SERVICE_NOTIFICATION": {
+        "prefix": "MB_SERVICE_NOTIFICATION",
+        "body": "\\$MB_SERVICE_NOTIFICATION ",
+        "scope": "source.autoit",
+        "description": "Flag parameter constants of MsgBox() function.\nThe function displays a message box on the current active desktop, even if there is no user logged on to the computer."
+    },
+    "MCS_NOTODAY": {
+        "prefix": "MCS_NOTODAY",
+        "body": "\\$MCS_NOTODAY",
+        "scope": "source.autoit"
+    },
+    "MCS_NOTODAYCIRCLE": {
+        "prefix": "MCS_NOTODAYCIRCLE",
+        "body": "\\$MCS_NOTODAYCIRCLE",
+        "scope": "source.autoit"
+    },
+    "MCS_WEEKNUMBERS": {
+        "prefix": "MCS_WEEKNUMBERS",
+        "body": "\\$MCS_WEEKNUMBERS",
+        "scope": "source.autoit"
+    },
+    "Opt": {
+        "prefix": "Opt",
+        "description": "Changes the operation of various AutoIt functions/parameters.",
+        "body": "Opt(${1: \"option\" [}${2:, ${3:param]}})",
+        "scope": "source.autoit"
+    },
+    "Opt - CaretCoordMode": {
+        "prefix": "Opt-CaretCoordMode",
+        "body": "Opt(\"CaretCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the caret functions, either absolute coords or coords relative to the current active window:\n0 = relative coords to the active window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the active window",
+        "scope": "source.autoit"
+    },
+    "Opt - ExpandEnvStrings": {
+        "prefix": "Opt-ExpandEnvStrings",
+        "body": "Opt(\"ExpandEnvStrings\", ${0|1})",
+        "description": "Changes how literal strings and % symbols are interpreted. By default strings are treated literally, this option allows you to use %environment% variables inside strings, e.g., \"The temp directory is: %temp%\".\n0 = (default) do not expand environment variables\n1 = expand environment variables",
+        "scope": "source.autoit"
+    },
+    "Opt - ExpandVarStrings": {
+        "prefix": "Opt-ExpandVarStrings",
+        "body": "Opt(\"ExpandVarStrings\", ${0|1})",
+        "description": "Changes how literal strings and variable/macro ($ and @) symbols are interpreted. By default strings are treated literally, this option allows you to use variables and macros inside strings, e.g., \"The value of var1 is $var1$\".\n0 = (default) do not expand variables\n1 = expand variables (when in this mode and you want to use a literal $ or @ then double it up: \"This is a single dollar $$ sign\".",
+        "scope": "source.autoit"
+    },
+    "Opt - GUICloseOnESC": {
+        "prefix": "Opt-GUICloseOnESC",
+        "body": "Opt(\"GUICloseOnESC\", ${0|1})",
+        "description": "When ESC is pressed on a GUI the $GUI_EVENT_CLOSE message is sent. This option toggles this behavior on and off.\n0 = Don't send the $GUI_EVENT_CLOSE message when ESC is pressed.\n1 = (default) Send() the $GUI_EVENT_CLOSE message when ESC is pressed.",
+        "scope": "source.autoit"
+    },
+    "Opt - GUICoordMode": {
+        "prefix": "Opt-GUICoordMode",
+        "body": "Opt(\"GUICoordMode\", ${0|1|2})",
+        "description": "Alters the position of a control defined by GUICtrlSetPos().\n0 = relative position to the start of the last control (upper left corner).\n1 = (default) absolute coordinates still relative to the dialog box.\n2 = cell positioning relative to current cell. A -1 for left or top parameter don't increment the start.\nSo next line is -1, offset; next cell is offset,-1; current cell is -1,-1.\nObviously \"offset\" cannot be -1 which reserved to indicate the no increment. But if you can use a multiple of the width you choose to skip or go back.",
+        "scope": "source.autoit"
+    },
+    "Opt - GUIDataSeparatorChar": {
+        "prefix": "Opt-GUIDataSeparatorChar",
+        "body": "Opt(\"GUIDataSeparatorChar\", \"${char}\")",
+        "description": "Define the character which delimits subitems in GUICtrlSetData().\nThe default character is '|'.",
+        "scope": "source.autoit"
+    },
+    "Opt - GUIOnEventMode": {
+        "prefix": "Opt-GUIOnEventMode",
+        "body": "Opt(\"GUIOnEventMode\", ${0=disable/1=enable})",
+        "description": "Enable/disable OnEvent functions notifications.\n0 = (default) disable.\n1 = enable.",
+        "scope": "source.autoit"
+    },
+    "Opt - GUIResizeMode": {
+        "prefix": "Opt-GUIResizeMode",
+        "body": "Opt(\"GUIResizeMode\", ${param})",
+        "description": "Change default resizing for a control.\n0 = (default) keep default control resizing.\n<1024 = any type of resizing see GUICtrlSetResizing().",
+        "scope": "source.autoit"
+    },
+    "Opt - GUIEventOptions": {
+        "prefix": "Opt-GUIEventOptions",
+        "body": "Opt(\"GUIEventOptions\", ${param})",
+        "description": "Change special event behavior or GUI function return values.\n0 = (default) Windows behavior on click on Minimize,Restore, Maximize, Resize.\n1 = suppress windows behavior on minimize, restore or maximize click button or window resize. Just sends the notification.",
+        "scope": "source.autoit"
+    },
+    "Opt - MouseClickDelay": {
+        "prefix": "Opt-MouseClickDelay",
+        "body": "Opt(\"MouseClickDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause in between mouse clicks.\nTime in milliseconds to pause (default=10).",
+        "scope": "source.autoit"
+    },
+    "Opt - MouseClickDownDelay": {
+        "prefix": "Opt-MouseClickDownDelay",
+        "body": "Opt(\"MouseClickDownDelay\", ${milliseconds})",
+        "description": "Alters the length a click is held down before release.\nTime in milliseconds to pause (default=10).",
+        "scope": "source.autoit"
+    },
+    "Opt - MouseClickDragDelay": {
+        "prefix": "Opt-MouseClickDragDelay",
+        "body": "Opt(\"MouseClickDragDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause at the start and end of a mouse drag operation.\nTime in milliseconds to pause (default=250).",
+        "scope": "source.autoit"
+    },
+    "Opt - MouseCoordMode": {
+        "prefix": "Opt-MouseCoordMode",
+        "body": "Opt(\"MouseCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the mouse functions, either absolute coords or coords relative to the current active window:\n0 = relative coords to the active window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the active window",
+        "scope": "source.autoit"
+    },
+    "Opt - MustDeclareVars": {
+        "prefix": "Opt-MustDeclareVars",
+        "body": "Opt(\"MustDeclareVars\", ${0|1})",
+        "description": "If this option is used then all variables must be pre-declared with Local, Global or in some cases Dim before they can be used - removes the chance for misspelled variables causing bugs.\n0 = (default) Variables don't need to be pre-declared\n1 = Variables must be pre-declared. See Dim / Global / Local / Const for details on declaring variables.",
+        "scope": "source.autoit"
+    },
+    "Opt - PixelCoordMode": {
+        "prefix": "Opt-PixelCoordMode",
+        "body": "Opt(\"PixelCoordMode\", ${0|1|2})",
+        "description": "Sets the way coords are used in the pixel functions, either absolute coords or coords relative to the window defined by hwnd (default active window):\n0 = relative coords to the defined window\n1 = (default) absolute screen coordinates\n2 = relative coords to the client area of the defined window",
+        "scope": "source.autoit"
+    },
+    "Opt - SendAttachMode": {
+        "prefix": "Opt-SendAttachMode",
+        "body": "Opt(\"SendAttachMode\", ${0|1})",
+        "description": "Specifies if AutoIt attaches input threads when using Send() function. When not attaching (default mode=0) detecting the state of capslock/scrolllock and numlock can be unreliable under NT4. However, when you specify attach mode=1 the Send(\"{... down/up}\") syntax will not work and there may be problems with sending keys to \"hung\" windows. ControlSend() ALWAYS attaches and is not affected by this mode.\n0 = (default) don't attach\n1 = attach",
+        "scope": "source.autoit"
+    },
+    "Opt - SendCapslockMode": {
+        "prefix": "Opt-SendCapslockMode",
+        "body": "Opt(\"SendCapslockMode\", ${0|1})",
+        "description": "Specifies if AutoIt should store the state of capslock before a Send() function and restore it afterwards.\n0 = don't store/restore\n1 = (default) store and restore",
+        "scope": "source.autoit"
+    },
+    "Opt - SendKeyDelay": {
+        "prefix": "Opt-SendKeyDelay",
+        "body": "Opt(\"SendKeyDelay\", ${milliseconds})",
+        "description": "Alters the length of the brief pause in between sent keystrokes. A value of 0 removes the delay completely.\nTime in milliseconds to pause (default=5).",
+        "scope": "source.autoit"
+    },
+    "Opt - SendKeyDownDelay": {
+        "prefix": "Opt-SendKeyDownDelay",
+        "body": "Opt(\"SendKeyDownDelay\", ${milliseconds})",
+        "description": "Alters the length of time a key is held down before being released during a keystroke. For applications that take a while to register keypresses you may need to raise this value from the default. A value of 0 removes the delay completely.\nTime in milliseconds to pause (default=5).",
+        "scope": "source.autoit"
+    },
+    "Opt - TCPTimeout": {
+        "prefix": "Opt-TCPTimeout",
+        "body": "Opt(\"TCPTimeout\", ${milliseconds})",
+        "description": "Defines the time before TCP functions stop if no communication.\nTime in milliseconds before timeout (default=100).",
+        "scope": "source.autoit"
+    },
+    "Opt - TrayAutoPause": {
+        "prefix": "Opt-TrayAutoPause",
+        "body": "Opt(\"TrayAutoPause\", ${0|1})",
+        "description": "Script pauses when click on tray icon.\n0 = no pause\n1 = (default) pause. If there is no DefaultMenu no pause will occurs.",
+        "scope": "source.autoit"
+    },
+    "Opt - TrayIconDebug": {
+        "prefix": "Opt-TrayIconDebug",
+        "body": "Opt(\"TrayIconDebug\", ${0|1})",
+        "description": "If enabled shows the current script line in the tray icon tip to help debugging.\n0 = (default) no debug information\n1 = show debug",
+        "scope": "source.autoit"
+    },
+    "Opt - TrayIconHide": {
+        "prefix": "Opt-TrayIconHide",
+        "body": "Opt(\"TrayIconHide\", ${0|1})",
+        "description": "Hides the AutoIt tray icon. Note: The icon will still initially appear for ~750 milliseconds.\n0 = (default) show icon\n1 = hide icon",
+        "scope": "source.autoit"
+    },
+    "Opt - TrayMenuMode": {
+        "prefix": "Opt-TrayMenuMode",
+        "body": "Opt(\"TrayMenuMode\", ${param})",
+        "description": "Extend the behaviour of the script tray icon/menu. This can be done with a combination (adding) of the following values.\n0 = (default) default menu items (Script Paused/Exit) are appended to the usercreated menu; items will automatically be checked/unchecked when clicked; double clicking the tray icon returns the controlID of the $TRAY_DEFAULT item.\n1 = no default menu\n2 = items will not automatically check/uncheck when clicked\n4 = do not return the $TRAY_DEFAULT item controlID when the tray icon is double clicked\n8 = turn off auto check of radio item groups",
+        "scope": "source.autoit"
+    },
+    "Opt - TrayOnEventMode": {
+        "prefix": "Opt-TrayOnEventMode",
+        "body": "Opt(\"TrayOnEventMode\", ${0|1})",
+        "description": "Enable/disable OnEvent functions notifications for the tray.\n0 = (default) disable\n1 = enable",
+        "scope": "source.autoit"
+    },
+    "Opt - WinDetectHiddenText": {
+        "prefix": "Opt-WinDetectHiddenText",
+        "body": "Opt(\"WinDetectHiddenText\", ${0|1})",
+        "description": "Specifies if hidden window text can be \"seen\" by the window matching functions.\n0 = (default) Do not detect hidden text\n1 = Detect hidden text",
+        "scope": "source.autoit"
+    },
+    "Opt - WinSearchChildren": {
+        "prefix": "Opt-WinSearchChildren",
+        "body": "Opt(\"WinSearchChildren\", ${0|1})",
+        "description": "Allows the window search routines to search child windows as well as top-level windows.\n0 = (default) Only search top-level windows\n1 = Search top-level and child windows",
+        "scope": "source.autoit"
+    },
+    "Opt - WinTextMatchMode": {
+        "prefix": "Opt-WinTextMatchMode",
+        "body": "Opt(\"WinTextMatchMode\", ${1|2})",
+        "description": "Alters the method that is used to match window text during search operations.\n1 = (default) Complete / Slow mode\n2 = Quick mode\nIn quick mode AutoIt can usually only \"see\" dialog text, button text and the captions of some controls. In the default mode much more text can be seen (for instance the contents of the Notepad window).\nIf you are having performance problems when performing many window searches then changing to the \"quick\" mode may help.",
+        "scope": "source.autoit"
+    },
+    "Opt - WinTitleMatchMode": {
+        "prefix": "Opt-WinTitleMatchMode",
+        "body": "Opt(\"WinTitleMatchMode\", ${-1|-2|-3|-4|1|2|3|4})",
+        "description": "Alters the method that is used to match window titles during search operations.\n1 = (default) Match the title from the start\n2 = Match any substring in the title\n3 = Exact title match\n4 = Advanced mode (retained for backwards compatibility only\n-1 to -4 = Case insensitive match according to the other type of match.",
+        "scope": "source.autoit"
+    },
+    "Opt - WinWaitDelay": {
+        "prefix": "Opt-WinWaitDelay",
+        "body": "Opt(\"WinWaitDelay\", ${milliseconds})",
+        "description": "Alters how long a script should briefly pause after a successful window-related operation.\nTime in milliseconds to pause (default=250).",
+        "scope": "source.autoit"
+    },
+    "PBS_MARQUEE": {
+        "prefix": "PBS_MARQUEE",
+        "body": "\\$PBS_MARQUEE",
+        "scope": "source.autoit"
+    },
+    "PBS_SMOOTH": {
+        "prefix": "PBS_SMOOTH",
+        "body": "\\$PBS_SMOOTH",
+        "scope": "source.autoit"
+    },
+    "PBS_VERTICAL": {
+        "prefix": "PBS_VERTICAL",
+        "body": "\\$PBS_VERTICAL",
+        "scope": "source.autoit"
+    },
+    "SS_BLACKFRAME": {
+        "prefix": "SS_BLACKFRAME",
+        "body": "\\$SS_BLACKFRAME",
+        "scope": "source.autoit"
+    },
+    "SS_BLACKRECT": {
+        "prefix": "SS_BLACKRECT",
+        "body": "\\$SS_BLACKRECT",
+        "scope": "source.autoit"
+    },
+    "SS_CENTER": {
+        "prefix": "SS_CENTER",
+        "body": "\\$SS_CENTER",
+        "scope": "source.autoit"
+    },
+    "SS_CENTERIMAGE": {
+        "prefix": "SS_CENTERIMAGE",
+        "body": "\\$SS_CENTERIMAGE",
+        "scope": "source.autoit"
+    },
+    "SS_ETCHEDFRAME": {
+        "prefix": "SS_ETCHEDFRAME",
+        "body": "\\$SS_ETCHEDFRAME",
+        "scope": "source.autoit"
+    },
+    "SS_ETCHEDHORZ": {
+        "prefix": "SS_ETCHEDHORZ",
+        "body": "\\$SS_ETCHEDHORZ",
+        "scope": "source.autoit"
+    },
+    "SS_ETCHEDVERT": {
+        "prefix": "SS_ETCHEDVERT",
+        "body": "\\$SS_ETCHEDVERT",
+        "scope": "source.autoit"
+    },
+    "SS_GRAYFRAME": {
+        "prefix": "SS_GRAYFRAME",
+        "body": "\\$SS_GRAYFRAME",
+        "scope": "source.autoit"
+    },
+    "SS_GRAYRECT": {
+        "prefix": "SS_GRAYRECT",
+        "body": "\\$SS_GRAYRECT",
+        "scope": "source.autoit"
+    },
+    "SS_LEFT": {
+        "prefix": "SS_LEFT",
+        "body": "\\$SS_LEFT",
+        "scope": "source.autoit"
+    },
+    "SS_LEFTNOWORDWRAP": {
+        "prefix": "SS_LEFTNOWORDWRAP",
+        "body": "\\$SS_LEFTNOWORDWRAP",
+        "scope": "source.autoit"
+    },
+    "SS_NOPREFIX": {
+        "prefix": "SS_NOPREFIX",
+        "body": "\\$SS_NOPREFIX",
+        "scope": "source.autoit"
+    },
+    "SS_NOTIFY": {
+        "prefix": "SS_NOTIFY",
+        "body": "\\$SS_NOTIFY",
+        "scope": "source.autoit"
+    },
+    "SS_RIGHT": {
+        "prefix": "SS_RIGHT",
+        "body": "\\$SS_RIGHT",
+        "scope": "source.autoit"
+    },
+    "SS_RIGHTJUST": {
+        "prefix": "SS_RIGHTJUST",
+        "body": "\\$SS_RIGHTJUST",
+        "scope": "source.autoit"
+    },
+    "SS_SIMPLE": {
+        "prefix": "SS_SIMPLE",
+        "body": "\\$SS_SIMPLE",
+        "scope": "source.autoit"
+    },
+    "SS_SUNKEN": {
+        "prefix": "SS_SUNKEN",
+        "body": "\\$SS_SUNKEN",
+        "scope": "source.autoit"
+    },
+    "SS_WHITEFRAME": {
+        "prefix": "SS_WHITEFRAME",
+        "body": "\\$SS_WHITEFRAME",
+        "scope": "source.autoit"
+    },
+    "SS_WHITERECT": {
+        "prefix": "SS_WHITERECT",
+        "body": "\\$SS_WHITERECT",
+        "scope": "source.autoit"
+    },
+    "UDS_ALIGNLEFT": {
+        "prefix": "UDS_ALIGNLEFT",
+        "body": "\\$UDS_ALIGNLEFT",
+        "scope": "source.autoit"
+    },
+    "UDS_ALIGNRIGHT": {
+        "prefix": "UDS_ALIGNRIGHT",
+        "body": "\\$UDS_ALIGNRIGHT",
+        "scope": "source.autoit"
+    },
+    "UDS_ARROWKEYS": {
+        "prefix": "UDS_ARROWKEYS",
+        "body": "\\$UDS_ARROWKEYS",
+        "scope": "source.autoit"
+    },
+    "UDS_HORZ": {
+        "prefix": "UDS_HORZ",
+        "body": "\\$UDS_HORZ",
+        "scope": "source.autoit"
+    },
+    "UDS_NOTHOUSANDS": {
+        "prefix": "UDS_NOTHOUSANDS",
+        "body": "\\$UDS_NOTHOUSANDS",
+        "scope": "source.autoit"
+    },
+    "UDS_WRAP": {
+        "prefix": "UDS_WRAP",
+        "body": "\\$UDS_WRAP",
+        "scope": "source.autoit"
+    }
+}
