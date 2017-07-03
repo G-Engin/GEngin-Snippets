@@ -5,7 +5,7 @@
     },
     "_GEng_Anim_FrameCount": {
         "documentation": "Get the number of frames in an Animation Object",
-        "label": "_GEng_Anim_FrameCount(ByRef $hAnim))",
+        "label": "_GEng_Anim_FrameCount(ByRef $hAnim)",
         "params": [
             {
                 "label": "$hAnim",

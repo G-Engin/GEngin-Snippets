@@ -1,0 +1,58 @@
+{
+    "_GEng_Sprite_PointGet": [
+		"Returns the word's relatvie position of a sprite's relative point",
+		"```\rGEng_Geometry.au3\r_GEng_Sprite_PointGet(ByRef $hSprite, $iImgX, $iImgY, ByRef $x, ByRef $y)\r```"
+	],
+    "_GEng_PointToPoint_Dist": [
+		"Returns the distance between 2 points",
+		"```\rGEng_Geometry.au3\r_GEng_PointToPoint_Dist($x0, $y0, $x, $y)\r```"
+	],
+    "_GEng_PointToPoint_Angle": [
+		"Returns the angle between 2 points",
+		"```\rGEng_Geometry.au3\r_GEng_PointToPoint_Angle($x0, $y0, $x, $y)\r```"
+	],
+    "_GEng_PointToPoint_Vector": [
+		"Returns a vector oriented from the first point to the second",
+		"```\rGEng_Geometry.au3\r_GEng_PointToPoint_Vector($x0, $y0, $x, $y, $iGrandeur = Default)\r```"
+	],
+    "_GEng_SpriteToPoint_Dist": [
+		"Returns the distance between a Sprite Object and a point",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToPoint_Dist(ByRef $hSprite, $x, $y)\r```"
+	],
+    "_GEng_SpriteToPoint_Angle": [
+		"Returns the angle between a Sprite Object and a point",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToPoint_Angle(ByRef $hSprite, $x, $y)\r```"
+	],
+    "_GEng_SpriteToPoint_AngleDiff": [
+		"Returns the angle between a Sprite Object and a point,\nrelativelly to the actual angle of the Sprite Object",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToPoint_AngleDiff(ByRef $hSprite, $x, $y)\r```"
+	],
+    "_GEng_SpriteToPoint_Vector": [
+		"Returns a vector oriented from a Sprite Object to a point",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToPoint_Vector(ByRef $hSprite, $x, $y, $iGrandeur = Default)\r```"
+	],
+    "_GEng_SpriteToSprite_Dist": [
+		"Returns the distance between 2 Sprite Objects",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToSprite_Dist(ByRef $hSprite, ByRef $hSprite2)\r```"
+	],
+    "_GEng_SpriteToSprite_Angle": [
+		"Returns the angle from the first Sprite Object to the second",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToSprite_Angle(ByRef $hSprite, ByRef $hSprite2)\r```"
+	],
+    "_GEng_SpriteToSprite_AngleDiff": [
+		"Returns the angle between a Sprite Object and another,\nrelativelly to the actual angle of the first Sprite Object",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToSprite_AngleDiff(ByRef $hSprite, ByRef $hSprite2)\r```"
+	],
+    "_GEng_SpriteToSprite_Vector": [
+		"Returns a vector oriented from a Sprite Object to another",
+		"```\rGEng_Geometry.au3\r_GEng_SpriteToSprite_Vector(ByRef $hSprite, ByRef $hSprite2, $iGrandeur = Default)\r```"
+	],
+    "_GEng_AngleToVector": [
+		"Returns a vector from an Angle and a Lenght",
+		"```\rGEng_Geometry.au3\r_GEng_AngleToVector($iAngle, $iGrandeur = 1)\r```"
+	],
+    "_GEng_VectorToAngle": [
+		"Returns an Angle from a Vector",
+		"```\rGEng_Geometry.au3\r_GEng_VectorToAngle($difX, $difY)\r```"
+	]
+}

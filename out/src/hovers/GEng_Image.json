@@ -1,0 +1,10 @@
+{
+    "_GEng_ImageLoad": [
+		"Creates an image object from a file, or a rectangular part of a file",
+		"```\rGEng_Image.au3\r_GEng_ImageLoad($sPath, $imgW = Default, $imgH = Default, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	],
+    "_GEng_ImageLoadStream": [
+		"Creates an image object from a string representing binary image file data",
+		"```\rGEng_Image.au3\r_GEng_ImageLoadStream($pic, $imgW = Default, $imgH = Default, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	]
+}

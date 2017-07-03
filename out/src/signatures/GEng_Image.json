@@ -1,0 +1,70 @@
+{
+    "_GEng_ImageLoad": {
+        "documentation": "Creates an image object from a file, or a rectangular part of a file",
+        "label": "_GEng_ImageLoad($sPath, $imgW = Default, $imgH = Default, $x = Default, $y = Default, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$sPath",
+                "documentation": "Path the file (supports bmp, gif, jpg, png, tiff, emf)"
+            },
+            {
+                "label": "$imgW",
+                "documentation": "Width Size of the image object (default = width of the image file)"
+            },
+            {
+                "label": "$imgH",
+                "documentation": "Height Size of the image object (default = height of the image file)"
+            },
+            {
+                "label": "$x",
+                "documentation": "Top left corners position of the rectangle"
+            },
+            {
+                "label": "$y",
+                "documentation": "Top left corners position of the rectangle"
+            },
+            {
+                "label": "$w",
+                "documentation": "Size of the rectangle"
+            },
+            {
+                "label": "$h",
+                "documentation": "Size of the rectangle"
+            }
+        ]
+    },
+    "_GEng_ImageLoadStream": {
+        "documentation": "Creates an image object from a string representing binary image file data",
+        "label": " _GEng_ImageLoadStream($pic, $imgW = Default, $imgH = Default, $x = Default, $y = Default, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$pic",
+                "documentation": "String Representing binary image file data"
+            },
+            {
+                "label": "$imgW",
+                "documentation": "Width Size of the image object (default = width of the image file)"
+            },
+            {
+                "label": "$imgH",
+                "documentation": "Height Size of the image object (default = height of the image file)"
+            },
+            {
+                "label": "$x",
+                "documentation": "Top left corners position of the rectangle"
+            },
+            {
+                "label": "$y",
+                "documentation": "Top left corners position of the rectangle"
+            },
+            {
+                "label": "$w",
+                "documentation": "Size of the rectangle"
+            },
+            {
+                "label": "$h",
+                "documentation": "Size of the rectangle"
+            }
+        ]
+    }
+}

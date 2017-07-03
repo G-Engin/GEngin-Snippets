@@ -1,0 +1,50 @@
+{
+    "_GEng_Sound_Init": [
+		"Initialize the sound system",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Init($iSampleRate = 44100, $iStereo = 1)\r```"
+	],
+    "_GEng_Sound_Shutdown": [
+		"Shutdown sound system and free resources",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Shutdown()\r```"
+	],
+	"_GEng_Sound_GlobalVolume": [
+		"Set or Get the global application sound volume",
+		"```\rGEng_Sound.au3\r_GEng_Sound_GlobalVolume($iVolume = Default)\r```"
+	],
+	"_GEng_Sound_Load": [
+		"Loads a sound into a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Load($sPath, $iLoop = 0)\r```"
+	],
+	"_GEng_Sound_Play": [
+		"Play a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Play($hSound, $iRestart = 1)\r```"
+	],
+	"_GEng_Sound_AttribSet": [
+		"Adjust the attributes of a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_AttribSet($hSound, $iVolume = 1, $iPan = 0, $iPitch = 0)\r```"
+	],
+	"_GEng_Sound_AttribGet": [
+		"Get the attributes of a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_AttribGet($hSound, ByRef $iVolume, ByRef $iPan, ByRef $iPitch, ByRef $iDefaultSampleRate)\r```"
+	],
+	"_GEng_Sound_SetLoop": [
+		"Specify if a sound object should be played in loop",
+		"```\rGEng_Sound.au3\r_GEng_Sound_SetLoop(ByRef $hSound, $iLoop)\r```"
+	],
+	"_GEng_Sound_IsPlaying": [
+		"Get the status of a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_IsPlaying(ByRef $hSound)\r```"
+	],
+	"_GEng_Sound_Pause": [
+		"Pause a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Pause(ByRef $hSound)\r```"
+	],
+	"_GEng_Sound_Stop": [
+		"Stop a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_Free(ByRef $hSound)\r```"
+	],
+	"_GEng_Sound_Free": [
+		"Delete and free the resources used by a Sound Object",
+		"```\rGEng_Sound.au3\r_GEng_Sound_IsPlaying(ByRef $hSound)\r```"
+	]
+}

@@ -1,0 +1,14 @@
+{
+    "_GEng_ScrFlush": [
+		"Flush the screen with a bakcground color",
+		"```\rGEng_Draw.au3\r_GEng_ScrFlush($iBkColor = 0xFFFFFFFF)\r```"
+	],
+    "_GEng_ScrUpdate": [
+		"Validate all the drawings (Sprites, Text) and update the screen",
+		"```\rGEng_Draw.au3\r_GEng_ScrUpdate()\r```"
+	],
+	"_GEng_FPS_Get": [
+		"Returns the FPS",
+		"```\rGEng_Draw.au3\r_GEng_FPS_Get($iDelay = 1000)\r```"
+	]	
+}

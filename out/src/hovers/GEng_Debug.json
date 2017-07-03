@@ -1,0 +1,26 @@
+{
+    "_GEng_Debug_DrawVector": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawVector($iDbgPen, $x0, $y0, $x1, $y1, $hBuffer = Default)\r```"
+	],
+    "_GEng_Debug_DrawVectAngle": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawVectAngle($iDbgPen, $x0, $y0, $iAngle, $iGrandeur, $hBuffer = Default)\r```"
+	],
+	"_GEng_Debug_DrawLine": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawLine($iDbgPen, $x0, $y0, $x1, $y1, $hBuffer = Default)\r```"
+	],
+	"_GEng_Debug_DrawLineAngle": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawLineAngle($iDbgPen, $x0, $y0, $iAngle, $iGrandeur, $hBuffer = Default)\r```"
+	],
+	"_GEng_Debug_DrawRect": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawRect($iDbgPen, $x, $y, $w, $h, $hBuffer = Default)\r```"
+	],
+	"_GEng_Debug_DrawCircle": [
+		"",
+		"```\rGEng_Debug.au3\r_GEng_Debug_DrawCircle($iDbgPen, $x, $y, $r, $hBuffer = Default)\r```"
+	]
+}

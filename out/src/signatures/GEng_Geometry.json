@@ -1,0 +1,262 @@
+{
+    "_GEng_Sprite_PointGet": {
+        "documentation": "Returns the word's relatvie position of a sprite's relative point",
+        "label": "_GEng_Sprite_PointGet(ByRef $hSprite, $iImgX, $iImgY, ByRef $x, ByRef $y)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iImgX",
+                "documentation": "Sprite's relative position"
+            },
+            {
+                "label": "$iImgY",
+                "documentation": "Sprite's relative position"
+            },
+            {
+                "label": "$x",
+                "documentation": "Vars that will contain the word's relative position"
+            },
+            {
+                "label": "$y",
+                "documentation": "Vars that will contain the word's relative position"
+            }
+        ]        
+    },
+    "_GEng_PointToPoint_Dist": {
+        "documentation": "Returns the distance between 2 points",
+        "label": "_GEng_PointToPoint_Dist($x0, $y0, $x, $y)",
+        "params": [
+            {
+                "label": "$x0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$y0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$x",
+                "documentation": "Second point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Second point"
+            }
+        ]
+    },
+    "_GEng_PointToPoint_Angle": {
+        "documentation": "Returns the angle between 2 points",
+        "label": "_GEng_PointToPoint_Angle($x0, $y0, $x, $y)",
+        "params": [
+            {
+                "label": "$x0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$y0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$x",
+                "documentation": "Second point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Second point"
+            }
+        ]             
+    },
+    "_GEng_PointToPoint_Vector": {
+        "documentation": "Returns a vector oriented from the first point to the second",
+        "label": "_GEng_PointToPoint_Vector($x0, $y0, $x, $y, $iGrandeur = Default)",
+        "params": [
+            {
+                "label": "$x0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$y0",
+                "documentation": "First point"
+            },
+            {
+                "label": "$x",
+                "documentation": "Second point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Second point"
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": "Lenght of the vector\n\r(If Default, then the distance between the 2 points is taken as lenght)"
+            }
+        ]
+    },
+    "_GEng_SpriteToPoint_Dist": {
+        "documentation": "Returns the distance between a Sprite Object and a point",
+        "label": "_GEng_SpriteToPoint_Dist(ByRef $hSprite, $x, $y)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Objec"
+            },
+            {
+                "label": "$x",
+                "documentation": "Point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Point"
+            }
+        ]
+    },
+    "_GEng_SpriteToPoint_Angle": {
+        "documentation": "Returns the angle between a Sprite Object and a point",
+        "label": "_GEng_SpriteToPoint_Angle(ByRef $hSprite, $x, $y)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Objec"
+            },
+            {
+                "label": "$x",
+                "documentation": "Point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Point"
+            }
+        ]
+    },
+    "_GEng_SpriteToPoint_AngleDiff": {
+        "documentation": "Returns the angle between a Sprite Object and a point,\nrelativelly to the actual angle of the Sprite Object",
+        "label": "_GEng_SpriteToPoint_AngleDiff(ByRef $hSprite, $x, $y)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Objec"
+            },
+            {
+                "label": "$x",
+                "documentation": "Point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Point"
+            }
+        ]
+    },
+    "_GEng_SpriteToPoint_Vector": {
+        "documentation": "Returns a vector oriented from a Sprite Object to a point",
+        "label": "_GEng_SpriteToPoint_Vector(ByRef $hSprite, $x, $y, $iGrandeur = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Objec"
+            },
+            {
+                "label": "$x",
+                "documentation": "Point"
+            },
+            {
+                "label": "$y",
+                "documentation": "Point"
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": "Lenght of the vector\n\r(If Default, then the distance between the Sprite Object and the points is taken as lenght)"
+            }
+        ]
+    },
+    "_GEng_SpriteToSprite_Dist": {
+        "documentation": "Returns the distance between 2 Sprite Objects",
+        "label": "_GEng_SpriteToSprite_Dist(ByRef $hSprite, ByRef $hSprite2)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "First sprite objects"
+            },
+            {
+                "label": "$hSprite2",
+                "documentation": "Second sprite objects"
+            }
+        ]
+    },
+    "_GEng_SpriteToSprite_Angle": {
+        "documentation": "Returns the angle from the first Sprite Object to the second",
+        "label": "_GEng_SpriteToSprite_Angle(ByRef $hSprite, ByRef $hSprite2)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "First sprite objects"
+            },
+            {
+                "label": "$hSprite2",
+                "documentation": "Second sprite objects"
+            }
+        ]
+    },
+    "_GEng_SpriteToSprite_AngleDiff": {
+        "documentation": "Returns the angle between a Sprite Object and another,\nrelativelly to the actual angle of the first Sprite Object",
+        "label": "_GEng_SpriteToSprite_AngleDiff(ByRef $hSprite, ByRef $hSprite2)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "First sprite objects"
+            },
+            {
+                "label": "$hSprite2",
+                "documentation": "Second sprite objects"
+            }
+        ]
+    },
+    "_GEng_SpriteToSprite_Vector": {
+        "documentation": "Returns a vector oriented from a Sprite Object to another",
+        "label": "_GEng_SpriteToSprite_Vector(ByRef $hSprite, ByRef $hSprite2, $iGrandeur = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "First sprite objects"
+            },
+            {
+                "label": "$hSprite2",
+                "documentation": "Second sprite objects"
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": "Lenght of the vector\n\r(If Default, then the distance between the Sprite Objects is taken as lenght)"
+            }
+        ]
+    },
+    "_GEng_AngleToVector": {
+        "documentation": "Returns a vector from an Angle and a Lenght",
+        "label": "_GEng_AngleToVector($iAngle, $iGrandeur = 1)",
+        "params": [
+            {
+                "label": "$iAngle",
+                "documentation": "Angle value (in degrees)"
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": "Lenght of the vector"
+            }
+        ]
+    },
+    "_GEng_VectorToAngle": {
+        "documentation": "Returns an Angle from a Vector",
+        "label": "_GEng_VectorToAngle($difX, $difY)",
+        "params": [
+            {
+                "label": "$difX",
+                "documentation": "Components of the vector"
+            },
+            {
+                "label": "$difY",
+                "documentation": "Components of the vector"
+            }
+        ]
+    }
+}

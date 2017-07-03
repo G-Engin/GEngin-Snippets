@@ -1,0 +1,26 @@
+{
+    "_GEng_ScrFlush": {
+        "documentation": "Get the number of frames in an Animation Object",
+        "label": "_GEng_ScrFlush($iBkColor = 0xFFFFFFFF)",
+        "params": [
+            {
+                "label": "$iBkColor",
+                "documentation": "Background color (0xAARRGGBB)"
+            }
+        ]
+    },
+    "_GEng_ScrUpdate": {
+        "documentation": "Validate all the drawings (Sprites, Text) and update the screen",
+        "label": "_GEng_ScrUpdate()"      
+    },
+    "_GEng_FPS_Get": {
+        "documentation": "Returns the FPS",
+        "label": "_GEng_FPS_Get($iDelay = 1000)",
+        "params": [
+            {
+                "label": "$iDelay",
+                "documentation": "Delay to return the FPS value (in ms)"
+            }
+        ]
+    }
+}
