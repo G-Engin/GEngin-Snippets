@@ -39,10 +39,10 @@
             }
         ],
         "snippets": [
-        {
-            "language": "autoit",
-            "path": "./snippets/gengin.json"
-        }
+            {
+                "language": "autoit",
+                "path": "./snippets/gengin.json"
+            }
         ]
     },
     "devDependencies": {
