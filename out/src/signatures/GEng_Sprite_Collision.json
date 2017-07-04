@@ -1,0 +1,72 @@
+{
+    "_GEng_Sprite_CollisionSet": {
+        "documentation": "Define the collision shape of a Sprite Object",
+        "label": "_GEng_Sprite_CollisionSet(ByRef $hSprite, $iType, $x = Default, $y = Default, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iType",
+                "documentation": "Defines which shape to use.\n\tCan be one of the following:\n\t* 0 => Dot\n\t* 1 => Rectangle (AABB)\n\t* 2 => Circle"
+            },
+            {
+                "label": "$x",
+                "documentation": "* 0 => Dot\n\t- Sprite's relative position of the collision point\n* 1 => Rectangle (AABB)\n\t- Upper left corner of the bounding box (sprites relative)\n* 2 => Circle\n\t- Circle's center point position"
+            },
+            {
+                "label": "$y",
+                "documentation": "* 0 => Dot\n\t- Sprite's relative position of the collision point\n* 1 => Rectangle (AABB)\n\t- Upper left corner of the bounding box (sprites relative)\n* 2 => Circle\n\t- Circle's center point position"
+            },
+            {
+                "label": "$w",
+                "documentation": "* 0 => Dot\n\t- Not used\n* 1 => Rectangle (AABB)\n\t- Size of the bounding box (widht, height)\n* 2 => Circle\n\t- Radius"
+            },
+            {
+                "label": "$h",
+                "documentation": "* 0 => Dot\n\t- Not used\n* 1 => Rectangle (AABB)\n\t- Size of the bounding box (widht, height)\n* 2 => Circle\n\t- Not used"
+            }
+        ]
+    },
+    "_GEng_Sprite_Collision": {
+        "documentation": "Test if 2 sprites collides",
+        "label": "_GEng_Sprite_Collision(ByRef $hSprite1, ByRef $hSprite2, $iScrBorderPosition = 0, $iDynamique = 0, $iPrecision = 0)",
+        "params": [
+            {
+                "label": "$hSprite1",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$hSprite2",
+                "documentation": "Sprite Object or one of the followings\n\t* $GEng_ScrBorder_Top -> Upper screen edge\n\t* $GEng_ScrBorder_Bot -> Bottom screen edge\n\t* $GEng_ScrBorder_Left -> Left screen edge\n\t* $GEng_ScrBorder_Right -> Right screen edge"
+            },
+            {
+                "label": "$iScrBorderPosition",
+                "documentation": "Distance between the screen edge and the collision line"
+            },
+            {
+                "label": "$iDynamique",
+                "documentation": "If TRUE, then the 2 tested sprites will collide dynamically"
+            },
+            {
+                "label": "$iPrecision",
+                "documentation": "Defines the precision of the dynamic collision anti-bugs algorithm,\nhigh values can really slow your program, so increase only if you encounter bugs."
+            }
+        ]      
+    },
+    "_GEng_Sprite_CollisionScrBorders": {
+        "documentation": "Test collision between a Sprite Object and all screen borders",
+        "label": "_GEng_Sprite_CollisionScrBorders(ByRef $hSprite, $iDynamique = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iDynamique",
+                "documentation": "Dynamics collisions ON/OFF"
+            }
+        ]
+    }
+}

@@ -1,0 +1,6 @@
+{
+    "_GEng_ScrFlush": [
+		"Calculates the update of the position and\nangle of a sprite by its dynamic parameters",
+		"```\rGEng_Sprite_Dynamics.au3\r_GEng_Sprite_Move(ByRef $hSprite)\r```"
+	]	
+}

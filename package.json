@@ -37,6 +37,12 @@
                     ".au3"
                 ]
             }
+        ],
+        "snippets": [
+        {
+            "language": "autoit",
+            "path": "./snippets/gengin.json"
+        }
         ]
     },
     "devDependencies": {

@@ -4,27 +4,23 @@ var { CompletionItemKind } = require('vscode')
 
 var items = [{
         label: '$GEng_Origin_Mid',
-        documentation: 'Middle\nGlobal enum of file GEng_Sprite.au3'
+        documentation: 'Middle\nFile GEng_Sprite.au3'
     },
     {
         label: '$GEng_Origin_TL',
-        documentation: 'Top Left\nGlobal enum of file GEng_Sprite.au3'
+        documentation: 'Top Left\nFile GEng_Sprite.au3'
     },
     {
         label: '$GEng_Origin_TR',
-        documentation: 'Top Right\nGlobal enum of file GEng_Sprite.au3'
+        documentation: 'Top Right\nFile GEng_Sprite.au3'
     },
     {
         label: '$GEng_Origin_BL',
-        documentation: 'Bottom Left\nGlobal enum of file GEng_Sprite.au3'
+        documentation: 'Bottom Left\nFile GEng_Sprite.au3'
     },
     {
         label: '$GEng_Origin_BR',
-        documentation: 'Bottom Right\nGlobal enum of file GEng_Sprite.au3'
-    },
-    {
-        label: '$GEng_Origin_Mid',
-        documentation: 'Global enum of file GEng_Sprite.au3'
+        documentation: 'Bottom Right\nFile GEng_Sprite.au3'
     }
 ]
 

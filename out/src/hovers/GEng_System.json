@@ -1,0 +1,14 @@
+{
+    "_GEng_Start": [
+		"Starts G-Engin, and creates a display window",
+		"```\rGEng_System.au3\r_GEng_Start($sTitle, $iW, $iH, $iX = -1, $iY = -1, $iStyle = -1, $iExtStyle = -1)\r```"
+	],
+    "_GEng_Shutdown": [
+		"Stops G-Engin, deletes the display window, and free all the resources",
+		"```\rGEng_System.au3\r_GEng_Shutdown()\r```"
+	],
+	"_GEng_SetDebug": [
+		"Change debug mode, or get it's current status",
+		"```\rGEng_System.au3\r_GEng_SetDebug($mode = Default)\r```"
+	]	
+}

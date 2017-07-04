@@ -1,0 +1,82 @@
+{
+    "_GEng_Sprite_MasseSet": [
+		"Set Sprite mass (for collision calculation)",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_MasseSet(ByRef $hSprite, $iMasse)\r```"
+	],
+    "_GEng_Sprite_PosSet": [
+		"Set the position of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_PosSet(ByRef $hSprite, $x = Default, $y = Default)\r```"
+	],
+	"_GEng_Sprite_SizeSet": [
+		"Set the size of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_SizeSet(ByRef $hSprite, $w = Default, $h = Default)\r```"
+	],
+	"_GEng_Sprite_OriginSet": [
+		"Set the origin point of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_OriginSet(ByRef $hSprite, $x = Default, $y = Default)\r```"
+	],
+	"_GEng_Sprite_OriginSetEx": [
+		"Set the origin point of a Sprite Object, to some specifique presets (most commons)",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_OriginSetEx(ByRef $hSprite, $eOrigin)\r```"
+	],
+	"_GEng_Sprite_AngleOriginSet": [
+		"Specify the angular origin of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleOriginSet(ByRef $hSprite, $iAngle)\r```"
+	],
+	"_GEng_Sprite_SpeedSet": [
+		"Set the speed, and the max speed of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_SpeedSet(ByRef $hSprite, $x = Default, $y = Default, $max = Default)\r```"
+	],
+	"_GEng_Sprite_SpeedAdd": [
+		"Add values to the actual speed of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_SpeedAdd(ByRef $hSprite, $x = 0, $y = 0)\r```"
+	],
+	"_GEng_Sprite_AccelSet": [
+		"Set the acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AccelSet(ByRef $hSprite, $x = Default, $y = Default)\r```"
+	],
+	"_GEng_Sprite_AccelAdd": [
+		"Add values to the actual acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AccelAdd(ByRef $hSprite, $x = 0, $y = 0)\r```"
+	],
+	"_GEng_Sprite_InnertieSet": [
+		"Set the innertia of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_InnertieSet(ByRef $hSprite, $value)\r```"
+	],
+	"_GEng_Sprite_AngleSet": [
+		"Set the angle of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleSet(ByRef $hSprite, $iAngle)\r```"
+	],
+	"_GEng_Sprite_AngleAdd": [
+		"Add a value to the actual angle of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleAdd(ByRef $hSprite, $iAngle = 0)\r```"
+	],
+	"_GEng_Sprite_AngleSpeedSet": [
+		"Set the rotation (angular) speed, and the max rotation speed",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleSpeedSet(ByRef $hSprite, $iAngle = Default, $iMax = Default)\r```"
+	],
+	"_GEng_Sprite_AngleSpeedAdd": [
+		"Add a value to the actual rotation speed of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleSpeedAdd(ByRef $hSprite, $iAngle = 0)\r```"
+	],
+	"_GEng_Sprite_AngleAccelSet": [
+		"Set the rotation (angular) acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleAccelSet(ByRef $hSprite, $iAngle = Default)\r```"
+	],
+	"_GEng_Sprite_AngleAccelAdd": [
+		"Add a value to the actual angular acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_AngleAccelAdd(ByRef $hSprite, $iAngle = 0)\r```"
+	],
+	"_GEng_sprite_AngleInnertieSet": [
+		"Set the angular innertia of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_sprite_AngleInnertieSet(ByRef $hSprite, $iAngle = Default)\r```"
+	],
+	"_GEng_Sprite_ColorMatrixTranslate": [
+		"Change the color components of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_ColorMatrixTranslate(ByRef $hSprite, $fRed = 0, $fGreen = 0, $fBlue = 0, $fAlpha = 0)\r```"
+	],
+	"_GEng_Sprite_ColorMatrixReset": [
+		"Reset the colors of a Sprite Object",
+		"```\rGEng_Sprite_Set.au3\r_GEng_Sprite_ColorMatrixReset(ByRef $hSprite)\r```"
+	]
+}

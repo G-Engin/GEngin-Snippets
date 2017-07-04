@@ -1,0 +1,18 @@
+{
+    "_GEng_Sprite_AnimRewind": [
+		"Reset the animation parameters of a Sprite Object",
+		"```\rGEng_Sprite_Animation.au3\r_GEng_Sprite_AnimRewind(ByRef $hSprite, $iFrame = 1)\r```"
+	],
+    "_GEng_Sprite_Animate": [
+		"Animate a Sprite Object with a given Animation Object",
+		"```\rGEng_Sprite_Animation.au3\r_GEng_Sprite_Animate(ByRef $hSprite, ByRef $hAnim, $iStopFrame = Default)\r```"
+	],
+	"_GEng_Sprite_AnimDelayMultiplierGet": [
+		"Get the value of the Frame delay multiplier of a Sprite Object",
+		"```\rGEng_Sprite_Animation.au3\r_GEng_Sprite_AnimDelayMultiplierGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AnimDelayMultiplierSet": [
+		"Set the value of the Frame delay multiplier of a Sprite Object",
+		"```\rGEng_Sprite_Animation.au3\r_GEng_Sprite_AnimDelayMultiplierSet(ByRef $hSprite, $iVal)\r```"
+	]
+}

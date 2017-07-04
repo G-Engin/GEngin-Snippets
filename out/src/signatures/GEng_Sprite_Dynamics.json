@@ -1,0 +1,12 @@
+{
+    "_GEng_Sprite_Move": {
+        "documentation": "Calculates the update of the position and\nangle of a sprite by its dynamic parameters",
+        "label": "_GEng_Sprite_Move(ByRef $hSprite)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Objet Sprite"
+            }
+        ]
+    }
+}

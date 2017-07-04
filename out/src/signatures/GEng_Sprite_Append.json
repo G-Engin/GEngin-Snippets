@@ -1,0 +1,48 @@
+{
+    "_GEng_Sprite_ExtInfoAdd": {
+        "documentation": "Append some value to a Sprite Object",
+        "label": "_GEng_Sprite_ExtInfoAdd(ByRef $hSprite, $vInfo)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$vInfo",
+                "documentation": "Value to append (Integer, string, array...)"
+            }
+        ]
+    },
+    "_GEng_Sprite_ExtInfoSet": {
+        "documentation": "Modifie an appended value",
+        "label": "_GEng_Sprite_ExtInfoSet(ByRef $hSprite, $iIndex, $vInfo)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iIndex",
+                "documentation": "Index of the value to modify (returned by <_GEng_Sprite_ExtInfoAdd>)"
+            },
+            {
+                "label": "$vInfo",
+                "documentation": "New value"
+            }
+        ]    
+    },
+    "_GEng_Sprite_ExtInfoGet": {
+        "documentation": "Read an appended value",
+        "label": "_GEng_Sprite_ExtInfoGet(ByRef $hSprite, $iIndex)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iIndex",
+                "documentation": "Index of the value to read (returned by <_GEng_Sprite_ExtInfoAdd>)"
+            }
+        ]
+    }
+}

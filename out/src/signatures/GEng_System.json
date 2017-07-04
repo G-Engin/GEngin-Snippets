@@ -1,0 +1,50 @@
+{
+    "_GEng_Start": {
+        "documentation": "Starts G-Engin, and creates a display window",
+        "label": "_GEng_Start($sTitle, $iW, $iH, $iX = -1, $iY = -1, $iStyle = -1, $iExtStyle = -1)",
+        "params": [
+            {
+                "label": "$sTitle",
+                "documentation": "The title of the dialog box"
+            },
+            {
+                "label": "$iW",
+                "documentation": "The width of the window"
+            },
+            {
+                "label": "$iH",
+                "documentation": "The height of the window"
+            },
+            {
+                "label": "$iX",
+                "documentation": "The left side of the dialog box. By default (-1), the window is centered.\nIf defined, top must also be defined."
+            },
+            {
+                "label": "$iY",
+                "documentation": "The top of the dialog box. Default (-1) is centered."
+            },
+            {
+                "label": "$iStyle",
+                "documentation": "Defines the style of the window.\n(See GUI Control Styles Appendix (AutoIt3 Doc))."
+            },
+            {
+                "label": "$iExtStyle",
+                "documentation": "Defines the extended style of the window.\n(See the Extended Style Table in GuiCreate Doc)"
+            }
+        ]
+    },
+    "_GEng_Shutdown": {
+        "documentation": "Stops G-Engin, deletes the display window, and free all the resources",
+        "label": "_GEng_Shutdown()"      
+    },
+    "_GEng_SetDebug": {
+        "documentation": "Change debug mode, or get it's current status",
+        "label": "_GEng_SetDebug($mode = Default)",
+        "params": [
+            {
+                "label": "$mode",
+                "documentation": "One of the following:\n\t- *Default* Get the status of debug mode\n\t- *0* : Deactivate debug mode\n\n\tCombination of:\n\t- *$GEng_Debug_Pens* Only Creates the colors needed to manualy draw with the _GEng_Debug_xxx Functions (parameter $iDbgPen)\n\t- *$GEng_Debug_Sprites* Draws the sprites boxes\n\t- *$GEng_Debug_Vectors* Draw the vectors (Speed and Acceleration)\n\t- *$GEng_Debug_Collisions* Draw the collisions"
+            }
+        ]
+    }
+}

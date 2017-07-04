@@ -1,0 +1,14 @@
+{
+    "_GEng_Sprite_CollisionSet": [
+		"Define the collision shape of a Sprite Object",
+		"```\rGEng_Sprite_Collision.au3\r_GEng_Sprite_CollisionSet(ByRef $hSprite, $iType, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	],
+    "_GEng_Sprite_Collision": [
+		"Test if 2 sprites collides",
+		"```\rGEng_Sprite_Collision.au3\r_GEng_Sprite_Collision(ByRef $hSprite1, ByRef $hSprite2, $iScrBorderPosition = 0, $iDynamique = 0, $iPrecision = 0)\r```"
+	],
+	"_GEng_Sprite_CollisionScrBorders": [
+		"Test collision between a Sprite Object and all screen borders",
+		"```\rGEng_Sprite_Collision.au3\r_GEng_Sprite_CollisionScrBorders(ByRef $hSprite, $iDynamique = 0)\r```"
+	]	
+}

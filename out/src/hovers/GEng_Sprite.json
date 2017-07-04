@@ -1,0 +1,22 @@
+{
+    "_GEng_Sprite_Create": [
+		"Creates a Sprite Object",
+		"```\rGEng_Sprite.au3\r_GEng_Sprite_Create($hImage = Default)\r```"
+	],
+    "_GEng_Sprite_ImageSet": [
+		"Assigne an image object, or a part of it to a sprite",
+		"```\rGEng_Sprite.au3\r_GEng_Sprite_ImageSet(ByRef $hSprite, ByRef $hImage, $x = Default, $y = Default, $w = Default, $h = Default)\r```"
+	],
+	"_GEng_Sprite_ImageSetRect": [
+		"Specifiy the part (rectangle) of the Image Object actually assigned to the Sprite that will be drawn",
+		"```\rGEng_Sprite.au3\r_GEng_Sprite_ImageSetRect(ByRef $hSprite, $x, $y, $w, $h, $InitSize = 0)\r```"
+	],
+	"_GEng_Sprite_Draw": [
+		"Draws a sprite at it's current position and angle",
+		"```\rGEng_Sprite.au3\r_GEng_Sprite_Draw(ByRef $hSprite, $iCalculateMovements = 1)\r```"
+	],
+	"_GEng_Sprite_Delete": [
+		"Delete a Sprite Object",
+		"```\rGEng_Sprite.au3\r_GEng_Sprite_Delete(ByRef $hSprite)\r```"
+	]
+}

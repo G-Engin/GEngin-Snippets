@@ -1,0 +1,14 @@
+{
+    "_GEng_Sprite_ExtInfoAdd": [
+		"Append some value to a Sprite Object",
+		"```\rGEng_Sprite_Append.au3\r_GEng_Sprite_ExtInfoAdd(ByRef $hSprite, $vInfo)\r```"
+	],
+    "_GEng_Sprite_ExtInfoSet": [
+		"Modifie an appended value",
+		"```\rGEng_Sprite_Append.au3\r_GEng_Sprite_ExtInfoSet(ByRef $hSprite, $iIndex, $vInfo)\r```"
+	],
+	"_GEng_Sprite_ExtInfoGet": [
+		"Read an appended value",
+		"```\rGEng_Sprite_Append.au3\r_GEng_Sprite_ExtInfoGet(ByRef $hSprite, $iIndex)\r```"
+	]	
+}

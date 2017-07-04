@@ -1,0 +1,326 @@
+{
+    "_GEng_Sprite_MasseSet": {
+        "documentation": "Set Sprite mass (for collision calculation)",
+        "label": "_GEng_Sprite_MasseSet(ByRef $hSprite, $iMasse)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iMasse",
+                "documentation": "Mass value"
+            }
+        ]
+    },
+    "_GEng_Sprite_PosSet": {
+        "documentation": "Set the position of a Sprite Object",
+        "label": "_GEng_Sprite_PosSet(ByRef $hSprite, $x = Default, $y = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "new position"
+            },
+            {
+                "label": "$y",
+                "documentation": "new position"
+            }
+        ]
+    },
+    "_GEng_Sprite_SizeSet": {
+        "documentation": "Set the size of a Sprite Object",
+        "label": "_GEng_Sprite_SizeSet(ByRef $hSprite, $w = Default, $h = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$w",
+                "documentation": "new size width\n\t*If <= 0*, set to current assigned Image Object Size"
+            },
+            {
+                "label": "$h",
+                "documentation": "new size height\n\t*If <= 0*, set to current assigned Image Object Size"
+            }
+        ]
+    },
+    "_GEng_Sprite_OriginSet": {
+        "documentation": "Set the origin point of a Sprite Object",
+        "label": "_GEng_Sprite_OriginSet(ByRef $hSprite, $x = Default, $y = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "*Sprite Relative* coordinates of the origin point"
+            },
+            {
+                "label": "$y",
+                "documentation": "*Sprite Relative* coordinates of the origin point"
+            }
+        ]
+    },
+    "_GEng_Sprite_OriginSetEx": {
+        "documentation": "Set the origin point of a Sprite Object, to some specifique presets (most commons)",
+        "label": "_GEng_Sprite_OriginSetEx(ByRef $hSprite, $eOrigin)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$eOrigin",
+                "documentation": "On of the following Enums:\n* $GEng_Origin_Mid = Middle\n* $GEng_Origin_TL = Top Left\n* $GEng_Origin_TR = Top Right\n* $GEng_Origin_BL = Bottom Left\n* $GEng_Origin_BR = Bottom Right"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleOriginSet": {
+        "documentation": "Specify the angular origin of a Sprite Object",
+        "label": "_GEng_Sprite_AngleOriginSet(ByRef $hSprite, $iAngle)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Angle (in degrees)"
+            }
+        ]
+    },
+    "_GEng_Sprite_SpeedSet": {
+        "documentation": "Set the speed, and the max speed of a Sprite Object",
+        "label": "_GEng_Sprite_SpeedSet(ByRef $hSprite, $x = Default, $y = Default, $max = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "Speed"
+            },
+            {
+                "label": "$y",
+                "documentation": "Speed"
+            },
+            {
+                "label": "$max",
+                "documentation": "Max authorized speed"
+            }
+        ]
+    },
+    "_GEng_Sprite_SpeedAdd": {
+        "documentation": "Add values to the actual speed of a Sprite Object",
+        "label": "_GEng_Sprite_SpeedAdd(ByRef $hSprite, $x = 0, $y = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "Values to add (negative to substract)"
+            },
+            {
+                "label": "$y",
+                "documentation": "Values to add (negative to substract)"
+            }
+        ]
+    },
+    "_GEng_Sprite_AccelSet": {
+        "documentation": "Set the acceleration of a Sprite Object",
+        "label": "_GEng_Sprite_AccelSet(ByRef $hSprite, $x = Default, $y = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "Acceleration"
+            },
+            {
+                "label": "$y",
+                "documentation": "Acceleration"
+            }
+        ]
+    },
+    "_GEng_Sprite_AccelAdd": {
+        "documentation": "Add values to the actual acceleration of a Sprite Object",
+        "label": "_GEng_Sprite_AccelAdd(ByRef $hSprite, $x = 0, $y = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$x",
+                "documentation": "Values to add (negative to substract)"
+            },
+            {
+                "label": "$y",
+                "documentation": "Values to add (negative to substract)"
+            }
+        ]
+    },
+    "_GEng_Sprite_InnertieSet": {
+        "documentation": "Set the innertia of a Sprite Object",
+        "label": "_GEng_Sprite_InnertieSet(ByRef $hSprite, $value)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$value",
+                "documentation": "Innertia"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleSet": {
+        "documentation": "Set the angle of a Sprite Object",
+        "label": "_GEng_Sprite_AngleSet(ByRef $hSprite, $iAngle)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Angle (in degrees)"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleAdd": {
+        "documentation": "Add a value to the actual angle of a Sprite Object",
+        "label": "_GEng_Sprite_AngleAdd(ByRef $hSprite, $iAngle = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Value to add (in degrees), can be + or -"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleSpeedSet": {
+        "documentation": "Set the rotation (angular) speed, and the max rotation speed",
+        "label": "_GEng_Sprite_AngleSpeedSet(ByRef $hSprite, $iAngle = Default, $iMax = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Rotation speed (in degrees per second)"
+            },
+            {
+                "label": "$iMax",
+                "documentation": "Max rotation speed (0 for no limit)"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleSpeedAdd": {
+        "documentation": "Add a value to the actual rotation speed of a Sprite Object",
+        "label": "_GEng_Sprite_AngleSpeedAdd(ByRef $hSprite, $iAngle = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Value to add"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleAccelSet": {
+        "documentation": "Set the rotation (angular) acceleration of a Sprite Object",
+        "label": "_GEng_Sprite_AngleAccelSet(ByRef $hSprite, $iAngle = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Rotation acceleration (+/-)"
+            }
+        ]
+    },
+    "_GEng_Sprite_AngleAccelAdd": {
+        "documentation": "Add a value to the actual angular acceleration of a Sprite Object",
+        "label": "_GEng_Sprite_AngleAccelAdd(ByRef $hSprite, $iAngle = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Value to add (+/-)"
+            }
+        ]
+    },
+    "_GEng_sprite_AngleInnertieSet": {
+        "documentation": "Set the angular innertia of a Sprite Object",
+        "label": "_GEng_sprite_AngleInnertieSet(ByRef $hSprite, $iAngle = Default)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$iAngle",
+                "documentation": "Value of the angular innertia"
+            }
+        ]
+    },
+    "_GEng_Sprite_ColorMatrixTranslate": {
+        "documentation": "Change the color components of a Sprite Object",
+        "label": "_GEng_Sprite_ColorMatrixTranslate(ByRef $hSprite, $fRed = 0, $fGreen = 0, $fBlue = 0, $fAlpha = 0)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            },
+            {
+                "label": "$fRed",
+                "documentation": "Percents to add/sub for the RED component (0 to 1.0)"
+            },
+            {
+                "label": "$fGreen",
+                "documentation": "Percents to add/sub for the GREEN component (0 to 1.0)"
+            },
+            {
+                "label": "$fBlue",
+                "documentation": "Percents to add/sub for the BLUE component (0 to 1.0)"
+            },
+            {
+                "label": "$fAlpha",
+                "documentation": "Percents to add/sub for the ALPHA component (transparency) (0 to 1.0)"
+            }
+        ]
+    },
+    "_GEng_Sprite_ColorMatrixReset": {
+        "documentation": "Reset the colors of a Sprite Object",
+        "label": "_GEng_Sprite_ColorMatrixReset(ByRef $hSprite)",
+        "params": [
+            {
+                "label": "$hSprite",
+                "documentation": "Sprite Object"
+            }
+        ]
+    }
+}

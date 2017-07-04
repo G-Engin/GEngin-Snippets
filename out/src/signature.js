@@ -1,12 +1,6 @@
 'use strict'
 
 var { languages, Position, SignatureHelp, SignatureInformation, ParameterInformation } = require('vscode')
-// var mergeJSON = require('merge-json')
-
-// var mainFunctions = require('./signatures/functions.json')
-// var udfs = require('./signatures/udfs.json')
-
-// var signatures = mergeJSON.merge(mainFunctions, udfs)
 var fs = require('fs')
 var signatures = {}
 var addJSON
@@ -19,8 +13,7 @@ for (var i in files)  {
 
 module.exports = languages.registerSignatureHelpProvider({ language: 'autoit', scheme: 'file' }, {
     provideSignatureHelp(document, position, token) {
-        // console.log("Actually getting into signature code")
-        // Find out what called for sig
+        // Find out what called for signature
         let caller = startOfCall(document, position)
         if (caller == null) {
             return null
@@ -38,7 +31,7 @@ module.exports = languages.registerSignatureHelpProvider({ language: 'autoit', s
         // let declarationText, sig
         let result = new SignatureHelp()
         let si = new SignatureInformation(foundSig.label, foundSig.documentation)
-            //Enter parameter information into signature information
+        //Enter parameter information into signature information
         si.parameters = foundSig.params
 
         //Place signature information into results

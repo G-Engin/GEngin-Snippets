@@ -1,0 +1,58 @@
+{
+    "_GEng_Sprite_MassGet": [
+		"Get a sprite's mass",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_MassGet(ByRef $hSprite)\r```"
+	],
+    "_GEng_Sprite_PosGet": [
+		"Get the position of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_PosGet(ByRef $hSprite, ByRef $x, ByRef $y)\r```"
+	],
+	"_GEng_Sprite_SizeGet": [
+		"Get the size of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_SizeGet(ByRef $hSprite, ByRef $x, ByRef $y)\r```"
+	],
+	"_GEng_Sprite_OriginGet": [
+		"Get the origin point of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_OriginGet(ByRef $hSprite, ByRef $x, ByRef $y)\r```"
+	],
+	"_GEng_Sprite_SpeedGet": [
+		"Get the speed of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_SpeedGet(ByRef $hSprite, ByRef $x, ByRef $y)\r```"
+	],
+	"_GEng_Sprite_MaxSpeedGet": [
+		"Get the maximum speed of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_MaxSpeedGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AccelGet": [
+		"Get the acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AccelGet(ByRef $hSprite, ByRef $x, ByRef $y)\r```"
+	],
+	"_GEng_Sprite_InnertieGet": [
+		"Get the innertia of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_InnertieGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AngleGet": [
+		"Get the angle of a Sprite Object (degrees Or radians)",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleGet(ByRef $hSprite, $iType = 1)\r```"
+	],
+	"_GEng_Sprite_AngleOriginGet": [
+		"Get then angular origin of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleOriginGet(ByRef $hSprite, $iType = 1)\r```"
+	],
+	"_GEng_Sprite_AngleSpeedGet": [
+		"Get the rotation speed of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleSpeedGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AngleMaxSpeedGet": [
+		"Get the maximum rotation speed of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleMaxSpeedGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AngleAccelGet": [
+		"Get the rotation acceleration of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleAccelGet(ByRef $hSprite)\r```"
+	],
+	"_GEng_Sprite_AngleInnertieGet": [
+		"Get the rotation innertia of a Sprite Object",
+		"```\rGEng_Sprite_Get.au3\r_GEng_Sprite_AngleInnertieGet(ByRef $hSprite)\r```"
+	]
+}
