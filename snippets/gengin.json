@@ -1,7 +1,33 @@
 {
     "Start Game": {
-        "prefix": "Start Game",
-        "body": "#include \"GEngin.au3\"\n#include <GUIConstantsEx.au3>\n\n;~ To use _IsPressed\n#Include <Misc.au3>\n\n; This is to get mouse position relatively to the window, not to the screen (by default)\nOpt(\"MouseCoordMode\", 2)\n\nGlobal \\$scrW = 800, \\$scrH = 600\n\n_GEng_Start(\"MyGame\", \\$scrW, \\$scrH)\n\\$Font = _GEng_Font_Create(\"Garamond\", 20, 1, 0, 2)\n\\$Text = _GEng_Text_Create(\\$Font, \"\", 0xFF004080, \\$scrW - 100, 0, 100, 20)\n\nDo\n\t_GEng_ScrFlush(0xFFFFFFFF)\n\t; ---\n\t\n\t; ---\n\t\\$FPS = _GEng_FPS_Get()\n\tIf \\$FPS <> -1 Then\n\t\t_GEng_Text_StringSet(\\$Text, Round(\\$FPS) & \" FPS\")\n\tEndIf\n\t_GEng_Text_Draw(\\$Text)\n\t_GEng_ScrUpdate()\nUntil GuiGetMsg() = \\$GUI_EVENT_CLOSE\n\n_GEng_Text_Delete(\\$Text)\n_GEng_Font_Delete(\\$Font)\n_GEng_Shutdown()",
+        "prefix": "StartGame",
+        "body": [
+            "#include \"GEngin.au3\"",
+            "#include <GUIConstantsEx.au3>\n",
+            ";~ To use _IsPressed",
+            "#Include <Misc.au3>\n",
+            ";~ This is to get mouse position relatively to the window, not to the screen (by default)",
+            "Opt(\"MouseCoordMode\", 2)\n",
+            "Global \\$scrW = 800, \\$scrH = 600",
+            "_GEng_Start(\"MyGame\", \\$scrW, \\$scrH)\n",
+            "\\$Font = _GEng_Font_Create(\"Garamond\", 20, 1, 0, 2)",
+            "\\$Text = _GEng_Text_Create(\\$Font, \"\", 0xFF004080, \\$scrW - 100, 0, 100, 20)\n",
+            "Do",
+            "\t_GEng_ScrFlush(0xFFFFFFFF)",
+            "\t;~ ---\t\n",
+            "\t;~ ---",
+            "\t\\$FPS = _GEng_FPS_Get()",
+            "\tIf \\$FPS <> -1 Then",
+            "\t\t_GEng_Text_StringSet(\\$Text, Round(\\$FPS) & \" FPS\")",
+            "\tEndIf",
+            "\t_GEng_Text_Draw(\\$Text)",
+            "\t_GEng_ScrUpdate()",
+            "Until GuiGetMsg() = \\$GUI_EVENT_CLOSE\n",
+            "_GEng_Text_Delete(\\$Text)",
+            "_GEng_Font_Delete(\\$Font)",
+            "_GEng_Shutdown()"
+        ],
+        "description": "Basic structure to create a game with the G-Engine.",
         "scope": "source.autoit"
     }
 }
