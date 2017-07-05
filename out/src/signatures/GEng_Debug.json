@@ -1,0 +1,178 @@
+{
+    "_GEng_Debug_DrawVector": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawVector($iDbgPen, $x0, $y0, $x1, $y1, $hBuffer = Default)",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x0",
+                "documentation": ""
+            },
+            {
+                "label": "$y0",
+                "documentation": ""
+            },
+            {
+                "label": "$x1",
+                "documentation": ""
+            },
+            {
+                "label": "$y1",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]
+    },
+    "_GEng_Debug_DrawVectAngle": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawVectAngle($iDbgPen, $x0, $y0, $iAngle, $iGrandeur, $hBuffer = Default)",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x0",
+                "documentation": ""
+            },
+            {
+                "label": "$y0",
+                "documentation": ""
+            },
+            {
+                "label": "$iAngle",
+                "documentation": ""
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]    
+    },
+    "_GEng_Debug_DrawLine": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawLine($iDbgPen, $x0, $y0, $x1, $y1, $hBuffer = Default)",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x0",
+                "documentation": ""
+            },
+            {
+                "label": "$y0",
+                "documentation": ""
+            },
+            {
+                "label": "$x1",
+                "documentation": ""
+            },
+            {
+                "label": "$y1",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]
+    },
+    "_GEng_Debug_DrawLineAngle": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawLineAngle($iDbgPen, $x0, $y0, $iAngle, $iGrandeur, $hBuffer = Default))",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x0",
+                "documentation": ""
+            },
+            {
+                "label": "$y0",
+                "documentation": ""
+            },
+            {
+                "label": "$iAngle",
+                "documentation": ""
+            },
+            {
+                "label": "$iGrandeur",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]
+    },
+    "_GEng_Debug_DrawRect": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawRect($iDbgPen, $x, $y, $w, $h, $hBuffer = Default)",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x0",
+                "documentation": ""
+            },
+            {
+                "label": "$y0",
+                "documentation": ""
+            },
+            {
+                "label": "$w",
+                "documentation": ""
+            },
+            {
+                "label": "$h",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]
+    },
+    "_GEng_Debug_DrawCircle": {
+        "documentation": "",
+        "label": "_GEng_Debug_DrawCircle($iDbgPen, $x, $y, $r, $hBuffer = Default)",
+        "params": [
+            {
+                "label": "$iDbgPen",
+                "documentation": ""
+            },
+            {
+                "label": "$x",
+                "documentation": ""
+            },
+            {
+                "label": "$y",
+                "documentation": ""
+            },
+            {
+                "label": "$r",
+                "documentation": ""
+            },
+            {
+                "label": "$hBuffer",
+                "documentation": ""
+            }
+        ]
+    }
+}

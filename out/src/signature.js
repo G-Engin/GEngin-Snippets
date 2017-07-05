@@ -27,7 +27,6 @@ module.exports = languages.registerSignatureHelpProvider({ language: 'autoit', s
             return null
         }
 
-
         // let declarationText, sig
         let result = new SignatureHelp()
         let si = new SignatureInformation(foundSig.label, foundSig.documentation)
