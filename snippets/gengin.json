@@ -1,6 +1,6 @@
 {
     "Start Game": {
-        "prefix": "StartGame",
+        "prefix": "Start_Game",
         "body": [
             "#include \"GEngin.au3\"",
             "#include <GUIConstantsEx.au3>\n",
