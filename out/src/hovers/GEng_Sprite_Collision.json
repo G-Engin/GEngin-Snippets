@@ -9,6 +9,6 @@
 	],
 	"_GEng_Sprite_CollisionScrBorders": [
 		"Test collision between a Sprite Object and all screen borders",
-		"```\rGEng_Sprite_Collision.au3\r_GEng_Sprite_CollisionScrBorders(ByRef $hSprite, $iDynamique = 0)\r```"
+		"```\rGEng_Sprite_Collision.au3\r\n_GEng_Sprite_CollisionScrBorders(ByRef $hSprite, $iDynamique = 0)\nReturns:\n\tNo collision => 0\n\n\tCollision occures, one of the following:\n\t\t- $GEng_ScrBorder_Top\n\t\t- $GEng_ScrBorder_Bot\n\t\t- $GEng_ScrBorder_Left\n\t\t- $GEng_ScrBorder_Right\r```"		
 	]	
 }

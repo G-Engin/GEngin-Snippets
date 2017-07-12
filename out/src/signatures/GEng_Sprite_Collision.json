@@ -56,7 +56,7 @@
         ]      
     },
     "_GEng_Sprite_CollisionScrBorders": {
-        "documentation": "Test collision between a Sprite Object and all screen borders",
+        "documentation": "Test collision between a Sprite Object and all screen borders\nReturns:\n\tNo collision => 0\n\n\tCollision occures, one of the following:\n\t\t- $GEng_ScrBorder_Top\n\t\t- $GEng_ScrBorder_Bot\n\t\t- $GEng_ScrBorder_Left\n\t\t- $GEng_ScrBorder_Right",
         "label": "_GEng_Sprite_CollisionScrBorders(ByRef $hSprite, $iDynamique = 0)",
         "params": [
             {
