@@ -1,16 +1,14 @@
 # G-engin Snippets
 
-Visual Studio Code snippets for UDF AutoIt, [G-Engin](https://github.com/G-Engin/g-engin/blob/g-engine/README.md)
+Visual Studio Code snippets for [UDF](https://www.autoitscript.com/wiki/User_Defined_Functions) [G-Engin](https://github.com/G-Engin/g-engin/blob/g-engine/README.md)
 
-<!--## Features
+## Features
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+IntelliSense, code hints and completion
 
-For example if there is an image subfolder under your extension project workspace:
-
-\!\[feature X\]\(images/feature-x.png\)
-
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.-->
+> ![IntelliSense](img/docs/IntelliSense.gif)
+-----------------------------------------------------------------------------------------------------------
+> ![Completion](img/docs/Completion.gif)
 
 ## Requirements
 

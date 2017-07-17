@@ -1,7 +1,7 @@
 {
     "name": "g-engin",
     "displayName": "G-Engin",
-    "description": "Visual Studio Code Snippets for Autoit UDF G-Engin",
+    "description": "Visual Studio Code snippets for <a href=\"https://www.autoitscript.com/wiki/User_Defined_Functions\">UDF</a> <a href=\"https://github.com/G-Engin/g-engin/blob/g-engine/README.md\">G-Engin</a>",
     "icon": "img/GEngin.png",
     "version": "1.0.0",
     "publisher": "RonildoSouza",
@@ -10,7 +10,7 @@
         "theme": "light"
     },
     "license": "UNLICENSED",
-    "homepage": "***TODO***",
+    "homepage": "https://github.com/G-Engin/GEngin-Snippets/blob/master/README.md",
     "repository": {
         "type": "git",
         "url": "https://github.com/G-Engin/GEngin-Snippets"
@@ -23,7 +23,7 @@
         "Other"
     ],
     "keywords": [
-        "autoit",
+        "autoit", 
         "g-engin"
     ],
     "activationEvents": [
