@@ -564,10 +564,20 @@ var items = [{
     }
 ]
 
-// Add the function icon and detail to each entry
+var funcItems = [{
+        label: '_GEng_Color_ShowList()',
+        documentation: 'Show list of colors and name of variable',
+    }
+]
+
 for (var i of items) {
     i.kind = CompletionItemKind.Variable
     i.detail = 'Variable global and constant of GEng_Color_Constants.au3'
 }
 
-module.exports = items
+for (var i of funcItems) {
+    i.kind = CompletionItemKind.Function
+    i.detail = 'Function of GEng_Color_Constants.au3'
+}
+
+module.exports = items.concat(funcItems)
