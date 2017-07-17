@@ -1,6 +1,6 @@
 # G-engin Snippets
 
-Visual Studio Code Snippets for Autoit UDF G-Engin
+Visual Studio Code snippets for UDF AutoIt, [G-Engin](https://github.com/G-Engin/g-engin/blob/g-engine/README.md)
 
 <!--## Features
 
@@ -14,25 +14,27 @@ For example if there is an image subfolder under your extension project workspac
 
 ## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+* [AutoIt](https://www.autoitscript.com/site/autoit/downloads/)
+* [AutoIt Extension Visual Studio Code](https://marketplace.visualstudio.com/items?itemName=Damien.autoit)
 
 <!--## Known Issues
 
 Calling out known issues can help limit users opening duplicate issues against your extension.
+-->
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.-->
+<!-- Users appreciate release notes as you update your extension. -->
 
 ### 1.0.0
 
-Initial release
+* Initial release
 
------------------------------------------------------------------------------------------------------------
+<!-- -----------------------------------------------------------------------------------------------------------
 
 ### For more information
 
 * [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
-**Enjoy!**
+**Enjoy!** -->
