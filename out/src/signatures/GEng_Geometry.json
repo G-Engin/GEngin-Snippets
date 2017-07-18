@@ -1,6 +1,6 @@
 {
     "_GEng_Sprite_PointGet": {
-        "documentation": "Returns the word's relatvie position of a sprite's relative point",
+        "documentation": "Returns the word's relative position of a sprite's relative point",
         "label": "_GEng_Sprite_PointGet(ByRef $hSprite, $iImgX, $iImgY, ByRef $x, ByRef $y)",
         "params": [
             {

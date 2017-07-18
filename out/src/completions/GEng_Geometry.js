@@ -4,7 +4,7 @@ var { CompletionItemKind } = require('vscode')
 
 var items = [{
         label: '_GEng_Sprite_PointGet',
-        documentation: 'Returns the word\'s relatvie position of a sprite\'s relative point',
+        documentation: 'Returns the word\'s relative position of a sprite\'s relative point',
     },
     {
         label: '_GEng_PointToPoint_Dist',

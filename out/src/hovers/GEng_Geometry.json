@@ -1,6 +1,6 @@
 {
     "_GEng_Sprite_PointGet": [
-		"Returns the word's relatvie position of a sprite's relative point",
+		"Returns the word's relative position of a sprite's relative point",
 		"```\rGEng_Geometry.au3\r_GEng_Sprite_PointGet(ByRef $hSprite, $iImgX, $iImgY, ByRef $x, ByRef $y)\r```"
 	],
     "_GEng_PointToPoint_Dist": [
