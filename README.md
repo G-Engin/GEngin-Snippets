@@ -36,3 +36,6 @@ Calling out known issues can help limit users opening duplicate issues against y
 * [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
 
 **Enjoy!** -->
+
+### Contributing
+Send your Pull Request. :+1:
