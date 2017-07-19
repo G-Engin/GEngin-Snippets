@@ -6,9 +6,9 @@ Visual Studio Code snippets for [UDF](https://www.autoitscript.com/wiki/User_Def
 
 IntelliSense, code hints and completion
 
-> ![IntelliSense](img/docs/IntelliSense.gif)
+![IntelliSense](img/docs/IntelliSense.gif)
 -----------------------------------------------------------------------------------------------------------
-> ![Completion](img/docs/Completion.gif)
+![Completion](img/docs/Completion.gif)
 
 ## Requirements
 

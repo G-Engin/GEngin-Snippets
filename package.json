@@ -23,7 +23,7 @@
         "Other"
     ],
     "keywords": [
-        "autoit", 
+        "autoit",
         "g-engin"
     ],
     "activationEvents": [
@@ -33,6 +33,7 @@
     "contributes": {
         "languages": [
             {
+                "id": "autoit",
                 "extensions": [
                     ".au3"
                 ]
