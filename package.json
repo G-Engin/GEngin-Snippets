@@ -1,7 +1,7 @@
 {
     "name": "g-engin",
     "displayName": "G-Engin",
-    "description": "Visual Studio Code snippets for <a href=\"https://www.autoitscript.com/wiki/User_Defined_Functions\">UDF</a> <a href=\"https://github.com/G-Engin/g-engin/blob/g-engine/README.md\">G-Engin</a>",
+    "description": "Visual Studio Code snippets for UDF G-Engin",
     "icon": "img/GEngin.png",
     "version": "1.0.0",
     "publisher": "RonildoSouza",
